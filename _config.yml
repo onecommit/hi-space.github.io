@@ -63,7 +63,7 @@ repository_tree: master
 ##############################
 paths:
   root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
+  home    : /test/ # home layout url, "/" (default)
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
@@ -195,17 +195,37 @@ exclude:
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - /docs
+  # - /docs
   - /node_modules
   - /screenshots
-  - /test
   - /vendor
 
+
+collections_dir: docs
+collections:
+  docs:
+    output: true
+  sample_page:
+    output: true
+  sample_articles:
+    output: true
+  sample_languages:
+    output: true
+
 defaults:
+  ## home
+  - scope:
+      path: "test"
+    values:
+      articles:
+        excerpt_type: html
+  ## posts
   - scope:
       path: ""
       type: posts
     values:
+      articles:
+        excerpt_type: html
       layout: article
       sharing: true
       license: false
@@ -214,7 +234,25 @@ defaults:
       show_edit_on_github: true
       show_subscribe: false
       pageview: true
-
+  ## samples
+  - scope:
+      path: ""
+      type: sample_page
+    values:
+      nav_key: samples
+  - scope:
+      path: ""
+      type: sample_articles
+    values:
+      nav_key: samples
+      show_date: false
+  - scope:
+      path: ""
+      type: sample_languages
+    values:
+      layout: article
+      nav_key: samples
+      show_date: false
 
 ## => Plugins
 ##############################

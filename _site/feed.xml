@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-09-04T02:21:53+09:00</updated><id>/feed.xml</id><title type="html">hi-space</title><subtitle>hi-space's workspace
+</subtitle><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><entry><title type="html">Theme Extensions</title><link href="/2021/09/04/theme-extensions.html" rel="alternate" type="text/html" title="Theme Extensions" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/theme-extensions</id><content type="html" xml:base="/2021/09/04/theme-extensions.html">&lt;h1 id=&quot;text&quot;&gt;Text&lt;/h1&gt;
+
+&lt;h2 id=&quot;definition&quot;&gt;Definition&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;kramdown&lt;/dt&gt;
+  &lt;dd&gt;A Markdown-superset converter&lt;/dd&gt;
+  &lt;dt&gt;Maruku&lt;/dt&gt;
+  &lt;dd&gt;Another Markdown-superset converter&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kramdown
+: A Markdown-superset converter
+
+Maruku
+:     Another Markdown-superset converter
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;footnote&quot;&gt;Footnote&lt;/h2&gt;
+
+&lt;p&gt;Here is a footnote reference,&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and another.&lt;sup id=&quot;fnref:longnote&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:longnote&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;alert&quot;&gt;Alert&lt;/h2&gt;
+
+&lt;p class=&quot;success&quot;&gt;Success Text.&lt;/p&gt;
+
+&lt;p class=&quot;info&quot;&gt;Info Text.&lt;/p&gt;
+
+&lt;p class=&quot;warning&quot;&gt;Warning Text.&lt;/p&gt;
+
+&lt;p class=&quot;error&quot;&gt;Error Text.&lt;/p&gt;
+
+&lt;h2 id=&quot;tag&quot;&gt;Tag&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext success highlighter-rouge&quot;&gt;success&lt;/code&gt; &lt;code class=&quot;language-plaintext info highlighter-rouge&quot;&gt;info&lt;/code&gt; &lt;code class=&quot;language-plaintext warning highlighter-rouge&quot;&gt;warning&lt;/code&gt; 
+&lt;code class=&quot;language-plaintext error highlighter-rouge&quot;&gt;error&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;extra&quot;&gt;Extra&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spacing&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/spacing&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Grid&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/grid&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Icons&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/icons&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Image&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/image&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Button&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/button&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Item&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/item&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Card&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/card&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hero&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/hero&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Swiper&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/swiper&quot;&gt;Doc&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;images&quot;&gt;Images&lt;/h1&gt;
+
+&lt;h2 id=&quot;specify-width-and-height&quot;&gt;Specify Width and Height&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/image.jpg&quot; alt=&quot;Image&quot; title=&quot;Image@128x128&quot; width=&quot;128px&quot; height=&quot;128px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;markdown:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Image](path-to-image){:width=&quot;128px&quot; height=&quot;128px&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;embedded&quot;&gt;Embedded&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/extensions&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;With the help of extensions, you can easily add &lt;strong&gt;audios&lt;/strong&gt;, &lt;strong&gt;videos&lt;/strong&gt;, &lt;strong&gt;slides&lt;/strong&gt; and &lt;strong&gt;demos&lt;/strong&gt; in your posts.&lt;/p&gt;
+
+&lt;h2 id=&quot;youtube&quot;&gt;YouTube&lt;/h2&gt;
+
+&lt;div&gt;&lt;div class=&quot;extensions extensions--video&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/wbY97-hdD5c?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;codepen&quot;&gt;CodePen&lt;/h2&gt;
+
+&lt;div&gt;&lt;div class=&quot;extensions extensions--demo&quot;&gt;
+&lt;iframe src=&quot;//codepen.io/kitian616/embed/aQmWZG/?theme-id=0&amp;amp;default-tab=html,result&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;mathjax&quot;&gt;MathJax&lt;/h1&gt;
+
+&lt;p&gt;When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are&lt;/p&gt;
+
+\[x_1 = {-b + \sqrt{b^2-4ac} \over 2a}\]
+
+\[x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag\]
+
+&lt;!--more--&gt;
+
+&lt;p class=&quot;warning&quot;&gt;You need set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mathjax: true&lt;/code&gt; in the &lt;em&gt;_config.yml&lt;/em&gt; or the markdown’s front matter to &lt;strong&gt;enable&lt;/strong&gt; it.&lt;/p&gt;
+
+&lt;p class=&quot;info&quot;&gt;&lt;strong&gt;After MathJax enabled&lt;/strong&gt;, you can set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mathjax_autoNumber: true&lt;/code&gt; to have equations be numbered automatically, You can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\notag&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\nonumber&lt;/code&gt; to prevent individual equations from being numbered.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements#mathjax&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;markdown:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;When &lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\ne&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;, there are two solutions to &lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; bx &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; c &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt; and they are
+&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\over&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$$&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ac&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\over&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\notag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;front matter:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+...
+mathjax: true
+mathjax_autoNumber: true
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;mermaid&quot;&gt;Mermaid&lt;/h1&gt;
+
+&lt;h2 id=&quot;flowchart&quot;&gt;Flowchart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```mermaid
+graph TD;
+    A--&amp;gt;B;
+    A--&amp;gt;C;
+    B--&amp;gt;D;
+    C--&amp;gt;D;
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;sequence-diagram&quot;&gt;Sequence Diagram&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&amp;gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&amp;gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
+    John--&amp;gt;Alice: Great!
+    John-&amp;gt;Bob: How about you?
+    Bob--&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&amp;gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&amp;gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
+    John--&amp;gt;Alice: Great!
+    John-&amp;gt;Bob: How about you?
+    Bob--&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;gant-diagrams&quot;&gt;Gant Diagrams&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;gantt
+    dateFormat  YYYY-MM-DD
+    title Adding GANTT diagram functionality to mermaid
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2              :         des4, after des3, 5d
+    section Critical tasks
+    Completed task in the critical line :crit, done, 2014-01-06,24h
+    Implement parser and jison          :crit, done, after des1, 2d
+    Create tests for parser             :crit, active, 3d
+    Future task in critical line        :crit, 5d
+    Create tests for renderer           :2d
+    Add to mermaid                      :1d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title Adding GANTT diagram functionality to mermaid
+    section A section
+    Completed task            :done,    des1, 2014-01-06,2014-01-08
+    Active task               :active,  des2, 2014-01-09, 3d
+    Future task               :         des3, after des2, 5d
+    Future task2              :         des4, after des3, 5d
+    section Critical tasks
+    Completed task in the critical line :crit, done, 2014-01-06,24h
+    Implement parser and jison          :crit, done, after des1, 2d
+    Create tests for parser             :crit, active, 3d
+    Future task in critical line        :crit, 5d
+    Create tests for renderer           :2d
+    Add to mermaid
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;chart&quot;&gt;Chart&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements#chart&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;line-chart&quot;&gt;Line Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;line&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [
+      &quot;January&quot;,
+      &quot;February&quot;,
+      &quot;March&quot;,
+      &quot;April&quot;,
+      &quot;May&quot;,
+      &quot;June&quot;,
+      &quot;July&quot;
+    ],
+    &quot;datasets&quot;: [
+      {
+        &quot;label&quot;: &quot;# of bugs&quot;,
+        &quot;fill&quot;: false,
+        &quot;lineTension&quot;: 0.1,
+        &quot;backgroundColor&quot;: &quot;rgba(75,192,192,0.4)&quot;,
+        &quot;borderColor&quot;: &quot;rgba(75,192,192,1)&quot;,
+        &quot;borderCapStyle&quot;: &quot;butt&quot;,
+        &quot;borderDash&quot;: [],
+        &quot;borderDashOffset&quot;: 0,
+        &quot;borderJoinStyle&quot;: &quot;miter&quot;,
+        &quot;pointBorderColor&quot;: &quot;rgba(75,192,192,1)&quot;,
+        &quot;pointBackgroundColor&quot;: &quot;#fff&quot;,
+        &quot;pointBorderWidth&quot;: 1,
+        &quot;pointHoverRadius&quot;: 5,
+        &quot;pointHoverBackgroundColor&quot;: &quot;rgba(75,192,192,1)&quot;,
+        &quot;pointHoverBorderColor&quot;: &quot;rgba(220,220,220,1)&quot;,
+        &quot;pointHoverBorderWidth&quot;: 2,
+        &quot;pointRadius&quot;: 1,
+        &quot;pointHitRadius&quot;: 10,
+        &quot;data&quot;: [
+          65,
+          59,
+          80,
+          81,
+          56,
+          55,
+          40
+        ],
+        &quot;spanGaps&quot;: false
+      }
+    ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+    &quot;type&quot;: &quot;line&quot;,
+    &quot;data&quot;: {
+    &quot;labels&quot;: [
+        &quot;January&quot;,
+        &quot;February&quot;,
+        &quot;March&quot;,
+        &quot;April&quot;,
+        &quot;May&quot;,
+        &quot;June&quot;,
+        &quot;July&quot;
+    ],
+    &quot;datasets&quot;: [
+        {
+        &quot;label&quot;: &quot;# of bugs&quot;,
+        &quot;fill&quot;: false,
+        &quot;lineTension&quot;: 0.1,
+        &quot;backgroundColor&quot;: &quot;rgba(75,192,192,0.4)&quot;,
+        &quot;borderColor&quot;: &quot;rgba(75,192,192,1)&quot;,
+        &quot;borderCapStyle&quot;: &quot;butt&quot;,
+        &quot;borderDash&quot;: [],
+        &quot;borderDashOffset&quot;: 0,
+        &quot;borderJoinStyle&quot;: &quot;miter&quot;,
+        &quot;pointBorderColor&quot;: &quot;rgba(75,192,192,1)&quot;,
+        &quot;pointBackgroundColor&quot;: &quot;#fff&quot;,
+        &quot;pointBorderWidth&quot;: 1,
+        &quot;pointHoverRadius&quot;: 5,
+        &quot;pointHoverBackgroundColor&quot;: &quot;rgba(75,192,192,1)&quot;,
+        &quot;pointHoverBorderColor&quot;: &quot;rgba(220,220,220,1)&quot;,
+        &quot;pointHoverBorderWidth&quot;: 2,
+        &quot;pointRadius&quot;: 1,
+        &quot;pointHitRadius&quot;: 10,
+        &quot;data&quot;: [
+            65,
+            59,
+            80,
+            81,
+            56,
+            55,
+            40
+        ],
+        &quot;spanGaps&quot;: false
+        }
+    ]
+    },
+    &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;bar-chart&quot;&gt;Bar Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;bar&quot;,
+  &quot;data&quot;: {
+  &quot;labels&quot;: [
+    &quot;Red&quot;,
+    &quot;Blue&quot;,
+    &quot;Yellow&quot;,
+    &quot;Green&quot;,
+    &quot;Purple&quot;,
+    &quot;Orange&quot;
+  ],
+  &quot;datasets&quot;: [
+    {
+    &quot;label&quot;: &quot;# of Votes&quot;,
+    &quot;data&quot;: [
+      12,
+      19,
+      3,
+      5,
+      2,
+      3
+    ],
+    &quot;backgroundColor&quot;: [
+      &quot;rgba(255, 99, 132, 0.2)&quot;,
+      &quot;rgba(54, 162, 235, 0.2)&quot;,
+      &quot;rgba(255, 206, 86, 0.2)&quot;,
+      &quot;rgba(75, 192, 192, 0.2)&quot;,
+      &quot;rgba(153, 102, 255, 0.2)&quot;,
+      &quot;rgba(255, 159, 64, 0.2)&quot;
+    ],
+    &quot;borderColor&quot;: [
+      &quot;rgba(255,99,132,1)&quot;,
+      &quot;rgba(54, 162, 235, 1)&quot;,
+      &quot;rgba(255, 206, 86, 1)&quot;,
+      &quot;rgba(75, 192, 192, 1)&quot;,
+      &quot;rgba(153, 102, 255, 1)&quot;,
+      &quot;rgba(255, 159, 64, 1)&quot;
+    ],
+    &quot;borderWidth&quot;: 1
+    }
+  ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```chart
+{
+    &quot;type&quot;: &quot;bar&quot;,
+    &quot;data&quot;: {
+    &quot;labels&quot;: [
+    &quot;Red&quot;,
+    &quot;Blue&quot;,
+    &quot;Yellow&quot;,
+    &quot;Green&quot;,
+    &quot;Purple&quot;,
+    &quot;Orange&quot;
+    ],
+    &quot;datasets&quot;: [
+    {
+    &quot;label&quot;: &quot;# of Votes&quot;,
+    &quot;data&quot;: [
+        12,
+        19,
+        3,
+        5,
+        2,
+        3
+    ],
+    &quot;backgroundColor&quot;: [
+        &quot;rgba(255, 99, 132, 0.2)&quot;,
+        &quot;rgba(54, 162, 235, 0.2)&quot;,
+        &quot;rgba(255, 206, 86, 0.2)&quot;,
+        &quot;rgba(75, 192, 192, 0.2)&quot;,
+        &quot;rgba(153, 102, 255, 0.2)&quot;,
+        &quot;rgba(255, 159, 64, 0.2)&quot;
+    ],
+    &quot;borderColor&quot;: [
+        &quot;rgba(255,99,132,1)&quot;,
+        &quot;rgba(54, 162, 235, 1)&quot;,
+        &quot;rgba(255, 206, 86, 1)&quot;,
+        &quot;rgba(75, 192, 192, 1)&quot;,
+        &quot;rgba(153, 102, 255, 1)&quot;,
+        &quot;rgba(255, 159, 64, 1)&quot;
+    ],
+    &quot;borderWidth&quot;: 1
+    }
+    ]
+    },
+    &quot;options&quot;: {}
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;radar-chart&quot;&gt;Radar Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;radar&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [
+      &quot;Eating&quot;,
+      &quot;Drinking&quot;,
+      &quot;Sleeping&quot;,
+      &quot;Designing&quot;,
+      &quot;Coding&quot;,
+      &quot;Cycling&quot;,
+      &quot;Running&quot;
+    ],
+    &quot;datasets&quot;: [
+      {
+        &quot;label&quot;: &quot;My First dataset&quot;,
+        &quot;backgroundColor&quot;: &quot;rgba(179,181,198,0.2)&quot;,
+        &quot;borderColor&quot;: &quot;rgba(179,181,198,1)&quot;,
+        &quot;pointBackgroundColor&quot;: &quot;rgba(179,181,198,1)&quot;,
+        &quot;pointBorderColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBackgroundColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBorderColor&quot;: &quot;rgba(179,181,198,1)&quot;,
+        &quot;data&quot;: [
+          65,
+          59,
+          90,
+          81,
+          56,
+          55,
+          40
+        ]
+      },
+      {
+        &quot;label&quot;: &quot;My Second dataset&quot;,
+        &quot;backgroundColor&quot;: &quot;rgba(255,99,132,0.2)&quot;,
+        &quot;borderColor&quot;: &quot;rgba(255,99,132,1)&quot;,
+        &quot;pointBackgroundColor&quot;: &quot;rgba(255,99,132,1)&quot;,
+        &quot;pointBorderColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBackgroundColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBorderColor&quot;: &quot;rgba(255,99,132,1)&quot;,
+        &quot;data&quot;: [
+          28,
+          48,
+          40,
+          19,
+          96,
+          27,
+          100
+        ]
+      }
+    ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```chart
+{
+    &quot;type&quot;: &quot;radar&quot;,
+    &quot;data&quot;: {
+    &quot;labels&quot;: [
+        &quot;Eating&quot;,
+        &quot;Drinking&quot;,
+        &quot;Sleeping&quot;,
+        &quot;Designing&quot;,
+        &quot;Coding&quot;,
+        &quot;Cycling&quot;,
+        &quot;Running&quot;
+    ],
+    &quot;datasets&quot;: [
+        {
+        &quot;label&quot;: &quot;My First dataset&quot;,
+        &quot;backgroundColor&quot;: &quot;rgba(179,181,198,0.2)&quot;,
+        &quot;borderColor&quot;: &quot;rgba(179,181,198,1)&quot;,
+        &quot;pointBackgroundColor&quot;: &quot;rgba(179,181,198,1)&quot;,
+        &quot;pointBorderColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBackgroundColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBorderColor&quot;: &quot;rgba(179,181,198,1)&quot;,
+        &quot;data&quot;: [
+            65,
+            59,
+            90,
+            81,
+            56,
+            55,
+            40
+        ]
+        },
+        {
+        &quot;label&quot;: &quot;My Second dataset&quot;,
+        &quot;backgroundColor&quot;: &quot;rgba(255,99,132,0.2)&quot;,
+        &quot;borderColor&quot;: &quot;rgba(255,99,132,1)&quot;,
+        &quot;pointBackgroundColor&quot;: &quot;rgba(255,99,132,1)&quot;,
+        &quot;pointBorderColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBackgroundColor&quot;: &quot;#fff&quot;,
+        &quot;pointHoverBorderColor&quot;: &quot;rgba(255,99,132,1)&quot;,
+        &quot;data&quot;: [
+            28,
+            48,
+            40,
+            19,
+            96,
+            27,
+            100
+        ]
+        }
+    ]
+    },
+    &quot;options&quot;: {}
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;polar-area-chart&quot;&gt;Polar Area Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;polarArea&quot;,
+  &quot;data&quot;: {
+    &quot;datasets&quot;: [
+      {
+        &quot;data&quot;: [
+          11,
+          16,
+          7,
+          3,
+          14
+        ],
+        &quot;backgroundColor&quot;: [
+          &quot;#FF6384&quot;,
+          &quot;#4BC0C0&quot;,
+          &quot;#FFCE56&quot;,
+          &quot;#E7E9ED&quot;,
+          &quot;#36A2EB&quot;
+        ],
+        &quot;label&quot;: &quot;My dataset&quot;
+      }
+    ],
+    &quot;labels&quot;: [
+      &quot;Red&quot;,
+      &quot;Green&quot;,
+      &quot;Yellow&quot;,
+      &quot;Grey&quot;,
+      &quot;Blue&quot;
+    ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```chart
+{
+    &quot;type&quot;: &quot;polarArea&quot;,
+    &quot;data&quot;: {
+    &quot;datasets&quot;: [
+        {
+        &quot;data&quot;: [
+            11,
+            16,
+            7,
+            3,
+            14
+        ],
+        &quot;backgroundColor&quot;: [
+            &quot;#FF6384&quot;,
+            &quot;#4BC0C0&quot;,
+            &quot;#FFCE56&quot;,
+            &quot;#E7E9ED&quot;,
+            &quot;#36A2EB&quot;
+        ],
+        &quot;label&quot;: &quot;My dataset&quot;
+        }
+    ],
+    &quot;labels&quot;: [
+        &quot;Red&quot;,
+        &quot;Green&quot;,
+        &quot;Yellow&quot;,
+        &quot;Grey&quot;,
+        &quot;Blue&quot;
+    ]
+    },
+    &quot;options&quot;: {}
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;pie-chart&quot;&gt;Pie Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;pie&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [
+      &quot;Red&quot;,
+      &quot;Blue&quot;,
+      &quot;Yellow&quot;
+    ],
+    &quot;datasets&quot;: [
+      {
+        &quot;data&quot;: [
+          300,
+          50,
+          100
+        ],
+        &quot;backgroundColor&quot;: [
+          &quot;#FF6384&quot;,
+          &quot;#36A2EB&quot;,
+          &quot;#FFCE56&quot;
+        ],
+        &quot;hoverBackgroundColor&quot;: [
+          &quot;#FF6384&quot;,
+          &quot;#36A2EB&quot;,
+          &quot;#FFCE56&quot;
+        ]
+      }
+    ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```chart
+{
+    &quot;type&quot;: &quot;pie&quot;,
+    &quot;data&quot;: {
+    &quot;labels&quot;: [
+        &quot;Red&quot;,
+        &quot;Blue&quot;,
+        &quot;Yellow&quot;
+    ],
+    &quot;datasets&quot;: [
+        {
+        &quot;data&quot;: [
+            300,
+            50,
+            100
+        ],
+        &quot;backgroundColor&quot;: [
+            &quot;#FF6384&quot;,
+            &quot;#36A2EB&quot;,
+            &quot;#FFCE56&quot;
+        ],
+        &quot;hoverBackgroundColor&quot;: [
+            &quot;#FF6384&quot;,
+            &quot;#36A2EB&quot;,
+            &quot;#FFCE56&quot;
+        ]
+        }
+    ]
+    },
+    &quot;options&quot;: {}
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;doughnut-chart&quot;&gt;Doughnut Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;doughnut&quot;,
+  &quot;data&quot;: {
+    &quot;labels&quot;: [
+      &quot;Red&quot;,
+      &quot;Blue&quot;,
+      &quot;Yellow&quot;
+    ],
+    &quot;datasets&quot;: [
+      {
+        &quot;data&quot;: [
+          300,
+          50,
+          100
+        ],
+        &quot;backgroundColor&quot;: [
+          &quot;#FF6384&quot;,
+          &quot;#36A2EB&quot;,
+          &quot;#FFCE56&quot;
+        ],
+        &quot;hoverBackgroundColor&quot;: [
+          &quot;#FF6384&quot;,
+          &quot;#36A2EB&quot;,
+          &quot;#FFCE56&quot;
+        ]
+      }
+    ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```chart
+{
+    &quot;type&quot;: &quot;doughnut&quot;,
+    &quot;data&quot;: {
+    &quot;labels&quot;: [
+        &quot;Red&quot;,
+        &quot;Blue&quot;,
+        &quot;Yellow&quot;
+    ],
+    &quot;datasets&quot;: [
+        {
+        &quot;data&quot;: [
+            300,
+            50,
+            100
+        ],
+        &quot;backgroundColor&quot;: [
+            &quot;#FF6384&quot;,
+            &quot;#36A2EB&quot;,
+            &quot;#FFCE56&quot;
+        ],
+        &quot;hoverBackgroundColor&quot;: [
+            &quot;#FF6384&quot;,
+            &quot;#36A2EB&quot;,
+            &quot;#FFCE56&quot;
+        ]
+        }
+    ]
+    },
+    &quot;options&quot;: {}
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;bubble-chart&quot;&gt;Bubble Chart&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-chart&quot;&gt;{
+  &quot;type&quot;: &quot;bubble&quot;,
+  &quot;data&quot;: {
+    &quot;datasets&quot;: [
+      {
+        &quot;label&quot;: &quot;First Dataset&quot;,
+        &quot;data&quot;: [
+          {
+            &quot;x&quot;: 20,
+            &quot;y&quot;: 30,
+            &quot;r&quot;: 15
+          },
+          {
+            &quot;x&quot;: 40,
+            &quot;y&quot;: 10,
+            &quot;r&quot;: 10
+          }
+        ],
+        &quot;backgroundColor&quot;: &quot;#FF6384&quot;,
+        &quot;hoverBackgroundColor&quot;: &quot;#FF6384&quot;
+      }
+    ]
+  },
+  &quot;options&quot;: {}
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```chart
+{
+    &quot;type&quot;: &quot;bubble&quot;,
+    &quot;data&quot;: {
+    &quot;datasets&quot;: [
+        {
+        &quot;label&quot;: &quot;First Dataset&quot;,
+        &quot;data&quot;: [
+            {
+            &quot;x&quot;: 20,
+            &quot;y&quot;: 30,
+            &quot;r&quot;: 15
+            },
+            {
+            &quot;x&quot;: 40,
+            &quot;y&quot;: 10,
+            &quot;r&quot;: 10
+            }
+        ],
+        &quot;backgroundColor&quot;: &quot;#FF6384&quot;,
+        &quot;hoverBackgroundColor&quot;: &quot;#FF6384&quot;
+        }
+    ]
+    },
+    &quot;options&quot;: {}
+}
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Here is the footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:longnote&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Here’s one with multiple blocks.&lt;/p&gt;
+
+      &lt;p&gt;Subsequent paragraphs are indented to show that they
+belong to the previous footnote.&lt;/p&gt;
+
+      &lt;p&gt;Here is a footnote reference,&lt;sup id=&quot;fnref:1:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and another.&lt;sup id=&quot;fnref:longnote:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:longnote&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+      &lt;p&gt;&lt;a href=&quot;#fnref:longnote&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">Text Definition Documentation kramdown A Markdown-superset converter Maruku Another Markdown-superset converter kramdown : A Markdown-superset converter Maruku : Another Markdown-superset converter Footnote Here is a footnote reference,1 and another.2 Alert Success Text. Info Text. Warning Text. Error Text. Tag success info warning error Extra Name Description Spacing Doc Grid Doc Icons Doc Image Doc Button Doc Item Doc Card Doc Hero Doc Swiper Doc Images Specify Width and Height markdown: ![Image](path-to-image){:width=&quot;128px&quot; height=&quot;128px&quot;} Embedded Documentation With the help of extensions, you can easily add audios, videos, slides and demos in your posts. YouTube CodePen MathJax When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x_1 = {-b + \sqrt{b^2-4ac} \over 2a}\] \[x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag\] Here is the footnote. &amp;#8617; Here’s one with multiple blocks. Subsequent paragraphs are indented to show that they belong to the previous footnote. Here is a footnote reference,1 and another.2 &amp;#8617;</summary></entry><entry><title type="html">Test - Article with Lots of Images</title><link href="/2015/01/03/article-with-lots-images.html" rel="alternate" type="text/html" title="Test - Article with Lots of Images" /><published>2015-01-03T00:00:00+09:00</published><updated>2015-01-03T00:00:00+09:00</updated><id>/2015/01/03/article-with-lots-images</id><content type="html" xml:base="/2015/01/03/article-with-lots-images.html">&lt;h2 id=&quot;text-theme---cover&quot;&gt;TeXt Theme - Cover&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg&quot; alt=&quot;TeXt Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;text-theme---layouts&quot;&gt;TeXt Theme - Layouts&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png&quot; alt=&quot;TeXt Theme Layouts&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-default&quot;&gt;Skin: Default&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg&quot; alt=&quot;default&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-dark&quot;&gt;Skin: Dark&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg&quot; alt=&quot;dark&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-forest&quot;&gt;Skin: Forest&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg&quot; alt=&quot;forest&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-ocean&quot;&gt;Skin: Ocean&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg&quot; alt=&quot;ocean&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-chocolate&quot;&gt;Skin: Chocolate&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg&quot; alt=&quot;chocolate&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-orange&quot;&gt;Skin: Orange&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg&quot; alt=&quot;orange&quot; /&gt;&lt;/p&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">TeXt Theme - Cover</summary></entry></feed>
