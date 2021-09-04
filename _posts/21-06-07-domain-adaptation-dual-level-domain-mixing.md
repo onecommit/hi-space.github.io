@@ -1,6 +1,7 @@
 ---
 title: Semi-supervised Domain Adaptation based on Dual-level Domain Mixing for Semantic Segmentation
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 Multi teacher (Region-level teacher와 Sample-level teacher) 를 이용해 student model에게 각기 다른 도메인에 대한 정보를 학습시켜준다. (Domain Mixing)

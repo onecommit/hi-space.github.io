@@ -1,6 +1,7 @@
 ---
 title: Self training with Noisy Student improves ImageNet classification
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 <!--more-->

@@ -1,6 +1,7 @@
 ---
 title: 📝 Source-Free Domain Adaptation for Semantic Segmentation
-tags: ai paper 📝
+category: AI
+tags: ai paper 📝 🔥
 ---
 
 <!--more-->

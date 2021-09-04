@@ -1,5 +1,6 @@
 ---
 title: "[NodeJS] express-generator"
+category: WEB
 tags: web backend nodejs
 ---
 

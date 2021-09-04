@@ -1,6 +1,7 @@
 ---
 title: Learning to Adapt Structured Output Space for Semantic Segmentation
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 <!--more-->

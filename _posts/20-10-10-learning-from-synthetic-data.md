@@ -1,6 +1,7 @@
 ---
 title: Learning from Synthetic Data
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 Addressing Domain Shift for Semantic Segmentation

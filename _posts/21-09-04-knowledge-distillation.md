@@ -1,6 +1,7 @@
 ---
 title: Knowledge Distillation
-tags: ai paper 
+category: AI
+tags: ai paper 🔥
 ---
 
 Ensemble 을 통해 얻을 수 있는 generalization 능력을 상대적으로 작은 규모의 network가 받을 수 있다면 좋지 않을까? 

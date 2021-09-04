@@ -1,6 +1,7 @@
 ---
 title: Pretext Task
-tags: ai paper 
+category: AI
+tags: ai 🔥
 ---
 
 self-supervised learning에서는 사용자가 새로운 문제를 정의하는 과정이 필요하다. 이를 pretext task라고 하는데, pretext task를 학습함으로써 network 는 데이터 자체에 대한 이해를 높일 수 있게 된다.

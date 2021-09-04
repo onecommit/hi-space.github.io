@@ -1,5 +1,6 @@
 ---
 title: "[MongoDB] Data Modeling"
+category: WEB
 tags: web backend db
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Domain Adaptation for Structured Output via Discriminative Patch Representations
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 <!--more-->

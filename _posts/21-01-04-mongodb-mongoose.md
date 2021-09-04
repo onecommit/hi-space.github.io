@@ -1,5 +1,6 @@
 ---
 title: "[MongoDB] JS Mongoose"
+category: WEB
 tags: web backend db
 ---
 

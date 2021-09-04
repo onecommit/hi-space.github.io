@@ -1,6 +1,7 @@
 ---
 title: 📝 Domain Adversarial
-tags: ai paper 📝
+category: AI
+tags: ai 📝 🔥
 ---
 
 <!--more-->

@@ -1,5 +1,6 @@
 ---
 title: "[MongoDB] CRUD command"
+category: WEB
 tags: web backend db
 ---
 

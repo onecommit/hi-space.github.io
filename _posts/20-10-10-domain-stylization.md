@@ -1,6 +1,7 @@
 ---
 title: Domain Stylization
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 A Strong, Simple Baseline for Synthetic to Real Image Domain Adaptation

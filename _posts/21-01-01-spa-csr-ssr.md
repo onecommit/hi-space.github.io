@@ -1,5 +1,6 @@
 ---
 title: "SPA, CSR, SSR"
+category: WEB
 tags: web backend frontend
 ---
 

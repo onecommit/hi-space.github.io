@@ -1,5 +1,6 @@
 ---
 title: "GraphQL"
+category: WEB
 tags: web backend
 ---
 

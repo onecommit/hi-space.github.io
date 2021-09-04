@@ -1,6 +1,7 @@
 ---
 title: Learning to Simulate Complex Scenes
-tags: ai paper 
+category: AI
+tags: ai paper 🔥
 ---
 
 <!--more-->

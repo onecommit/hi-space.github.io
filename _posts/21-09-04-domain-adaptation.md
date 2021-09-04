@@ -1,6 +1,7 @@
 ---
 title: 📝 Domain Adaptaion
-tags: ai paper 📝
+category: AI
+tags: ai 📝 🔥
 ---
 
 <!--more-->

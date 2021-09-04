@@ -1,5 +1,6 @@
 ---
 title: 마크다운 이미지 삽입 (Paste Image)
+category: ENV
 tags: env vscode
 ---
 

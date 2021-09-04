@@ -1,7 +1,10 @@
 ---
 title: "Web storage"
+category: WEB
 tags: web frontend
 ---
+
+Cookie vs Local Storage vs Session Storage
 
 <!--more-->
 

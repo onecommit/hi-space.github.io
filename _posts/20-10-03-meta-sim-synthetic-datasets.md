@@ -1,6 +1,7 @@
 ---
 title: Meta-Sim - Learning to Generate Synthetic Datasets
-tags: ai paper
+category: AI
+tags: ai paper 🔥
 ---
 
 <!--more-->
