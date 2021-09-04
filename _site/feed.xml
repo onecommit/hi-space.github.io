@@ -1,37 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-09-04T11:10:31+09:00</updated><id>/feed.xml</id><title type="html">hi-space</title><subtitle>hi-space's workspace
-</subtitle><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><entry><title type="html">Test - Article with Lots of Images</title><link href="/2021/09/04/article-with-lots-images.html" rel="alternate" type="text/html" title="Test - Article with Lots of Images" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/article-with-lots-images</id><content type="html" xml:base="/2021/09/04/article-with-lots-images.html">&lt;h2 id=&quot;text-theme---cover&quot;&gt;TeXt Theme - Cover&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-09-04T13:10:22+09:00</updated><id>/feed.xml</id><title type="html">hi-space</title><subtitle>hi-space's workspace
+</subtitle><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><entry><title type="html">Jekyll 댓글 시스템 - utterances</title><link href="/2021/09/04/jekyll-comment.html" rel="alternate" type="text/html" title="Jekyll 댓글 시스템 - utterances" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/jekyll-comment</id><content type="html" xml:base="/2021/09/04/jekyll-comment.html">&lt;p&gt;Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서는 별도 외부 플러그인 사용이 필요하다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg&quot; alt=&quot;TeXt Theme&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;종류&quot;&gt;종류&lt;/h1&gt;
 
-&lt;!--more--&gt;
+&lt;h2 id=&quot;disqus&quot;&gt;&lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;text-theme---layouts&quot;&gt;TeXt Theme - Layouts&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;많이들 사용하는 댓글 시스템&lt;/li&gt;
+  &lt;li&gt;로딩되는 데 시간이 좀 걸림&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png&quot; alt=&quot;TeXt Theme Layouts&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2021-09-04-jekyll-comment-disqus.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;skin-default&quot;&gt;Skin: Default&lt;/h2&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;disqus_thread&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;border: 0.5px solid #E5E5E5; padding: 15px;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// DON'T EDIT BELOW THIS LINE&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://https-hi-space-github-io.disqus.com/embed.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;data-timestamp&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;noscript&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Please&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;enable&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;JavaScript&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://disqus.com/?ref_noscript&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;comments&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;powered&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Disqus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;noscript&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg&quot; alt=&quot;default&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;utterances&quot;&gt;&lt;a href=&quot;https://github.com/apps/utterances&quot;&gt;Utterances&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h2 id=&quot;skin-dark&quot;&gt;Skin: Dark&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/2021-09-04-jekyll-comment-utterance.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg&quot; alt=&quot;dark&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Github 로그인 필요&lt;/li&gt;
+  &lt;li&gt;Github id 로 댓글을 달면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;github.io&lt;/code&gt; 레포의 issues 에 자동으로 등록된다&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&quot;skin-forest&quot;&gt;Skin: Forest&lt;/h2&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://utteranc.es/client.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hi-space/hi-space.github.io&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;issue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;term&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;github-light&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;crossorigin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;anonymous&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg&quot; alt=&quot;forest&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
 
-&lt;h2 id=&quot;skin-ocean&quot;&gt;Skin: Ocean&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg&quot; alt=&quot;ocean&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-chocolate&quot;&gt;Skin: Chocolate&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg&quot; alt=&quot;chocolate&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-orange&quot;&gt;Skin: Orange&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg&quot; alt=&quot;orange&quot; /&gt;&lt;/p&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">TeXt Theme - Cover</summary></entry><entry><title type="html">Theme Extensions</title><link href="/2021/09/04/theme-extensions.html" rel="alternate" type="text/html" title="Theme Extensions" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/theme-extensions</id><content type="html" xml:base="/2021/09/04/theme-extensions.html">&lt;h1 id=&quot;text&quot;&gt;Text&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://madplay.github.io/post/jekyll-blog-comments-with-utterances&quot;&gt;jekyll-blog-comments-with-utterances&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="env" /><category term="jekyll" /><summary type="html">Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서는 별도 외부 플러그인 사용이 필요하다. 종류 Disqus 많이들 사용하는 댓글 시스템 로딩되는 데 시간이 좀 걸림 &amp;lt;div id=&quot;disqus_thread&quot; style=&quot;border: 0.5px solid #E5E5E5; padding: 15px;&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script&amp;gt; /** * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS. * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */ /* var disqus_config = function () { this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable }; */ (function() { // DON'T EDIT BELOW THIS LINE var d = document, s = d.createElement('script'); s.src = 'https://https-hi-space-github-io.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })(); &amp;lt;/script&amp;gt; &amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&quot;https://disqus.com/?ref_noscript&quot;&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt; Utterances Github 로그인 필요 Github id 로 댓글을 달면 github.io 레포의 issues 에 자동으로 등록된다 &amp;lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;hi-space/hi-space.github.io&quot; issue-term=&quot;title&quot; theme=&quot;github-light&quot; crossorigin=&quot;anonymous&quot; async&amp;gt; &amp;lt;/script&amp;gt; References jekyll-blog-comments-with-utterances</summary></entry><entry><title type="html">Jekyll 테마 Theme Extensions</title><link href="/2021/09/04/theme-extensions.html" rel="alternate" type="text/html" title="Jekyll 테마 Theme Extensions" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/theme-extensions</id><content type="html" xml:base="/2021/09/04/theme-extensions.html">&lt;h1 id=&quot;text&quot;&gt;Text&lt;/h1&gt;
 
 &lt;h2 id=&quot;definition&quot;&gt;Definition&lt;/h2&gt;
 
@@ -865,4 +889,34 @@ belong to the previous footnote.&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;#fnref:longnote&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">Text Definition Documentation kramdown A Markdown-superset converter Maruku Another Markdown-superset converter kramdown : A Markdown-superset converter Maruku : Another Markdown-superset converter Footnote Here is a footnote reference,1 and another.2 Alert Success Text. Info Text. Warning Text. Error Text. Tag success info warning error Extra Name Description Spacing Doc Grid Doc Icons Doc Image Doc Button Doc Item Doc Card Doc Hero Doc Swiper Doc Images Specify Width and Height markdown: ![Image](path-to-image){:width=&quot;128px&quot; height=&quot;128px&quot;} Embedded Documentation With the help of extensions, you can easily add audios, videos, slides and demos in your posts. YouTube CodePen MathJax When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x_1 = {-b + \sqrt{b^2-4ac} \over 2a}\] \[x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag\] Here is the footnote. &amp;#8617; Here’s one with multiple blocks. Subsequent paragraphs are indented to show that they belong to the previous footnote. Here is a footnote reference,1 and another.2 &amp;#8617;</summary></entry></feed>
+&lt;/div&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="env" /><category term="jekyll" /><summary type="html">Text Definition Documentation kramdown A Markdown-superset converter Maruku Another Markdown-superset converter kramdown : A Markdown-superset converter Maruku : Another Markdown-superset converter Footnote Here is a footnote reference,1 and another.2 Alert Success Text. Info Text. Warning Text. Error Text. Tag success info warning error Extra Name Description Spacing Doc Grid Doc Icons Doc Image Doc Button Doc Item Doc Card Doc Hero Doc Swiper Doc Images Specify Width and Height markdown: ![Image](path-to-image){:width=&quot;128px&quot; height=&quot;128px&quot;} Embedded Documentation With the help of extensions, you can easily add audios, videos, slides and demos in your posts. YouTube CodePen MathJax When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x_1 = {-b + \sqrt{b^2-4ac} \over 2a}\] \[x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag\] Here is the footnote. &amp;#8617; Here’s one with multiple blocks. Subsequent paragraphs are indented to show that they belong to the previous footnote. Here is a footnote reference,1 and another.2 &amp;#8617;</summary></entry><entry><title type="html">마크다운 이미지 삽입 Extension</title><link href="/2021/09/04/vscode-paste-image.html" rel="alternate" type="text/html" title="마크다운 이미지 삽입 Extension" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/vscode-paste-image</id><content type="html" xml:base="/2021/09/04/vscode-paste-image.html">&lt;p&gt;vscode에서 마크다운 편집할 때 이미지를 추가하기가 불편한다. 웹의 이미지나 데스크톱의 파일의 복사하여 바로 에디터에 붙여넣기 위한 extension 이다.&lt;/p&gt;
+
+&lt;h1 id=&quot;install&quot;&gt;Install&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-ubuntu-라면-xclip-설치&quot;&gt;1. Ubuntu 라면 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xclip&lt;/code&gt; 설치&lt;/h2&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;xclip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2-vscode-extension-설치---paste-image&quot;&gt;2. VScode Extension 설치 - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Paste Image&lt;/code&gt;&lt;/h2&gt;
+
+&lt;h1 id=&quot;how-to-use&quot;&gt;How to Use&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;ctrl--alt--v&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl&lt;/code&gt; + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Alt&lt;/code&gt; + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;V&lt;/code&gt;&lt;/h2&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;에디터에서 붙여넣기 하면 clipboard에 복사되어 있는 이미지가 자동으로 지정된 경로에 생성되고 해당 경로 이미지가 페이지에 삽입된다.&lt;/li&gt;
+  &lt;li&gt;작성되어 있는 포스트 글씨를 블락한 채로 사용하면 그에 맞는 이름으로 이미지가 삽입된다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;settings&quot;&gt;Settings&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2021-09-04-vscode-paste-image-settings.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="env" /><category term="vscode" /><summary type="html">vscode에서 마크다운 편집할 때 이미지를 추가하기가 불편한다. 웹의 이미지나 데스크톱의 파일의 복사하여 바로 에디터에 붙여넣기 위한 extension 이다. Install 1. Ubuntu 라면 xclip 설치 sudo apt install xclip 2. VScode Extension 설치 - Paste Image How to Use Ctrl + Alt + V 에디터에서 붙여넣기 하면 clipboard에 복사되어 있는 이미지가 자동으로 지정된 경로에 생성되고 해당 경로 이미지가 페이지에 삽입된다. 작성되어 있는 포스트 글씨를 블락한 채로 사용하면 그에 맞는 이름으로 이미지가 삽입된다. Settings Reference https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image</summary></entry></feed>

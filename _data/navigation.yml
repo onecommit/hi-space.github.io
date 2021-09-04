@@ -1,6 +1,8 @@
 header:
   - title:      Home
     url:        /home.html
+  - title:      Category
+    url:        /category.html
   - title:      Blog
     url:        /
   - title:      Archive

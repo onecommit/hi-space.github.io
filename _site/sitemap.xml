@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/2021/09/04/article-with-lots-images.html</loc>
+<loc>/2021/09/04/jekyll-comment.html</loc>
 <lastmod>2021-09-04T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>/2021/09/04/theme-extensions.html</loc>
+<lastmod>2021-09-04T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>/2021/09/04/vscode-paste-image.html</loc>
 <lastmod>2021-09-04T00:00:00+09:00</lastmod>
 </url>
 <url>
@@ -15,12 +19,12 @@
 <loc>/archive.html</loc>
 </url>
 <url>
+<loc>/category.html</loc>
+</url>
+<url>
 <loc>/home.html</loc>
 </url>
 <url>
 <loc>/</loc>
-</url>
-<url>
-<loc>/samples.html</loc>
 </url>
 </urlset>
