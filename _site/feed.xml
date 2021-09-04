@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-09-04T10:53:09+09:00</updated><id>/feed.xml</id><title type="html">hi-space</title><subtitle>hi-space's workspace
-</subtitle><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><entry><title type="html">Theme Extensions</title><link href="/2021/09/04/theme-extensions.html" rel="alternate" type="text/html" title="Theme Extensions" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/theme-extensions</id><content type="html" xml:base="/2021/09/04/theme-extensions.html">&lt;h1 id=&quot;text&quot;&gt;Text&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2021-09-04T11:10:31+09:00</updated><id>/feed.xml</id><title type="html">hi-space</title><subtitle>hi-space's workspace
+</subtitle><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><entry><title type="html">Test - Article with Lots of Images</title><link href="/2021/09/04/article-with-lots-images.html" rel="alternate" type="text/html" title="Test - Article with Lots of Images" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/article-with-lots-images</id><content type="html" xml:base="/2021/09/04/article-with-lots-images.html">&lt;h2 id=&quot;text-theme---cover&quot;&gt;TeXt Theme - Cover&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg&quot; alt=&quot;TeXt Theme&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;text-theme---layouts&quot;&gt;TeXt Theme - Layouts&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png&quot; alt=&quot;TeXt Theme Layouts&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-default&quot;&gt;Skin: Default&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg&quot; alt=&quot;default&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-dark&quot;&gt;Skin: Dark&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg&quot; alt=&quot;dark&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-forest&quot;&gt;Skin: Forest&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg&quot; alt=&quot;forest&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-ocean&quot;&gt;Skin: Ocean&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg&quot; alt=&quot;ocean&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-chocolate&quot;&gt;Skin: Chocolate&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg&quot; alt=&quot;chocolate&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;skin-orange&quot;&gt;Skin: Orange&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg&quot; alt=&quot;orange&quot; /&gt;&lt;/p&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">TeXt Theme - Cover</summary></entry><entry><title type="html">Theme Extensions</title><link href="/2021/09/04/theme-extensions.html" rel="alternate" type="text/html" title="Theme Extensions" /><published>2021-09-04T00:00:00+09:00</published><updated>2021-09-04T00:00:00+09:00</updated><id>/2021/09/04/theme-extensions</id><content type="html" xml:base="/2021/09/04/theme-extensions.html">&lt;h1 id=&quot;text&quot;&gt;Text&lt;/h1&gt;
 
 &lt;h2 id=&quot;definition&quot;&gt;Definition&lt;/h2&gt;
 
@@ -833,36 +865,4 @@ belong to the previous footnote.&lt;/p&gt;
       &lt;p&gt;&lt;a href=&quot;#fnref:longnote&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">Text Definition Documentation kramdown A Markdown-superset converter Maruku Another Markdown-superset converter kramdown : A Markdown-superset converter Maruku : Another Markdown-superset converter Footnote Here is a footnote reference,1 and another.2 Alert Success Text. Info Text. Warning Text. Error Text. Tag success info warning error Extra Name Description Spacing Doc Grid Doc Icons Doc Image Doc Button Doc Item Doc Card Doc Hero Doc Swiper Doc Images Specify Width and Height markdown: ![Image](path-to-image){:width=&quot;128px&quot; height=&quot;128px&quot;} Embedded Documentation With the help of extensions, you can easily add audios, videos, slides and demos in your posts. YouTube CodePen MathJax When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x_1 = {-b + \sqrt{b^2-4ac} \over 2a}\] \[x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag\] Here is the footnote. &amp;#8617; Here’s one with multiple blocks. Subsequent paragraphs are indented to show that they belong to the previous footnote. Here is a footnote reference,1 and another.2 &amp;#8617;</summary></entry><entry><title type="html">Test - Article with Lots of Images</title><link href="/2015/01/03/article-with-lots-images.html" rel="alternate" type="text/html" title="Test - Article with Lots of Images" /><published>2015-01-03T00:00:00+09:00</published><updated>2015-01-03T00:00:00+09:00</updated><id>/2015/01/03/article-with-lots-images</id><content type="html" xml:base="/2015/01/03/article-with-lots-images.html">&lt;h2 id=&quot;text-theme---cover&quot;&gt;TeXt Theme - Cover&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg&quot; alt=&quot;TeXt Theme&quot; /&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;text-theme---layouts&quot;&gt;TeXt Theme - Layouts&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png&quot; alt=&quot;TeXt Theme Layouts&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-default&quot;&gt;Skin: Default&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg&quot; alt=&quot;default&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-dark&quot;&gt;Skin: Dark&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg&quot; alt=&quot;dark&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-forest&quot;&gt;Skin: Forest&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg&quot; alt=&quot;forest&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-ocean&quot;&gt;Skin: Ocean&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg&quot; alt=&quot;ocean&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-chocolate&quot;&gt;Skin: Chocolate&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg&quot; alt=&quot;chocolate&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;skin-orange&quot;&gt;Skin: Orange&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg&quot; alt=&quot;orange&quot; /&gt;&lt;/p&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">TeXt Theme - Cover</summary></entry></feed>
+&lt;/div&gt;</content><author><name>hi-space</name><email>hispace.j@gmail.com</email></author><category term="Jekyll" /><summary type="html">Text Definition Documentation kramdown A Markdown-superset converter Maruku Another Markdown-superset converter kramdown : A Markdown-superset converter Maruku : Another Markdown-superset converter Footnote Here is a footnote reference,1 and another.2 Alert Success Text. Info Text. Warning Text. Error Text. Tag success info warning error Extra Name Description Spacing Doc Grid Doc Icons Doc Image Doc Button Doc Item Doc Card Doc Hero Doc Swiper Doc Images Specify Width and Height markdown: ![Image](path-to-image){:width=&quot;128px&quot; height=&quot;128px&quot;} Embedded Documentation With the help of extensions, you can easily add audios, videos, slides and demos in your posts. YouTube CodePen MathJax When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are \[x_1 = {-b + \sqrt{b^2-4ac} \over 2a}\] \[x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag\] Here is the footnote. &amp;#8617; Here’s one with multiple blocks. Subsequent paragraphs are indented to show that they belong to the previous footnote. Here is a footnote reference,1 and another.2 &amp;#8617;</summary></entry></feed>

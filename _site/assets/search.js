@@ -1,1 +1,1 @@
-window.TEXT_SEARCH_DATA={'posts':[{'title':"Test - Article with Lots of Images",'url':"/2015/01/03/article-with-lots-images.html"},{'title':"Theme Extensions",'url':"/2021/09/04/theme-extensions.html"}]};
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Test - Article with Lots of Images",'url':"/2021/09/04/article-with-lots-images.html"},{'title':"Theme Extensions",'url':"/2021/09/04/theme-extensions.html"}]};
