@@ -1,6 +1,6 @@
 header:
   - title:      Home
-    url:        /test/
+    url:        /home.html
   - title:      Blog
     url:        /
   - title:      Archive
