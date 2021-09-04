@@ -14,6 +14,8 @@ article_header:
 cover: /assets/images/cover3.jpg
 ---
 
+<!--more-->
+
 # Text
 
 ## Definition

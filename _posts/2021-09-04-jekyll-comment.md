@@ -1,9 +1,18 @@
 ---
-title: Jekyll 댓글 시스템 - utterances
+title: Jekyll 댓글 시스템 (Disqus / Utterances)
 tags: env jekyll
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
 ---
 
-Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서는 별도 외부 플러그인 사용이 필요하다. 
+Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서는 별도 외부 플러그인 사용이 필요하다.  
+
+<!--more-->
 
 # 종류
 
@@ -11,8 +20,6 @@ Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서
 
 - 많이들 사용하는 댓글 시스템
 - 로딩되는 데 시간이 좀 걸림
-
-![](/assets/images/2021-09-04-jekyll-comment-disqus.png)
 
 ```js
 <div id="disqus_thread" style="border: 0.5px solid #E5E5E5; padding: 15px;"></div>
@@ -36,9 +43,9 @@ Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 ```
 
-## [Utterances](https://github.com/apps/utterances)
+![](/assets/images/2021-09-04-jekyll-comment-disqus.png)
 
-![](/assets/images/2021-09-04-jekyll-comment-utterance.png)
+## [Utterances](https://github.com/apps/utterances)
 
 - Github 로그인 필요
 - Github id 로 댓글을 달면 `github.io` 레포의 issues 에 자동으로 등록된다
@@ -52,6 +59,8 @@ Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서
     async>
 </script>
 ```
+
+![](/assets/images/2021-09-04-jekyll-comment-utterance.png)
 
 # References
 

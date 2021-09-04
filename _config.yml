@@ -222,6 +222,17 @@ defaults:
       show_edit_on_github: true
       show_subscribe: false
       pageview: true
+      key: anything
+      mode: immersive
+      header:
+        theme: dark
+      article_header:
+        type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+        theme: dark
+        background_color: "#123"
+        # background_image:
+        #   src: /assets/images/cover3.jpg
+        #   gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 
 ## => Plugins
 ##############################
