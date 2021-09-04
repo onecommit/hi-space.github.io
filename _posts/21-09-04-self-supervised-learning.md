@@ -1,6 +1,6 @@
 ---
 title: Self-supervised learning
-tags: ai
+tags: ai paper 
 ---
 
 Self-supervised learning의 배경과 approach에 대해 알아보자

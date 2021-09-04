@@ -1,11 +1,13 @@
 ---
 title: Learning to Simulate Complex Scenes
-tags: ai paper
+tags: ai paper 
 ---
 
-- https://arxiv.org/pdf/2006.14611.pdf
-
 <!--more-->
+
+# Paper
+
+- https://arxiv.org/pdf/2006.14611.pdf
 
 # Abstract
 
