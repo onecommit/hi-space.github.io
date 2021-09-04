@@ -2404,21 +2404,21 @@ a > .item__header.disabled, a > .item__header:disabled, a.item__header.disabled,
 
 .search-bar { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; margin: 1rem 0 1.5rem 0; }
 
-.search-box { position: relative; width: 100%; max-width: 22rem; }
+.search-box { position: relative; width: 100%; }
 
 @media (max-width: 499px) { .search-box { width: 100%; max-width: none; } }
 
-.search-box > input { display: inline-block; width: 100%; height: 2.3rem; padding: 0 2rem; margin: 0; line-height: 1 !important; color: #222; background-color: transparent; border: 2px solid #cccccc; border-radius: 6rem; -webkit-appearance: none; /* fix iOS don't display box-shadow properly */ -webkit-transition: box-shadow 0.4s ease-in-out; transition: box-shadow 0.4s ease-in-out; }
+.search-box > input { display: inline-block; width: 100%; height: 2.3rem; padding: 0 2rem; margin: 0; line-height: 1 !important; font-size: 1.25rem; color: #222; background-color: transparent; border-bottom: 2px solid #cccccc; -webkit-appearance: none; /* fix iOS don't display box-shadow properly */ -webkit-transition: box-shadow 0.4s ease-in-out; transition: box-shadow 0.4s ease-in-out; }
 
 .root[data-is-touch] .search-box > input.focus { box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.4); }
 
-.search--light .search-box > input { color: #222; border-color: #222; }
+.search--light .search-box > input { color: #222; border: 0px; border-bottom: 2px solid #222; }
 
-.root[data-is-touch] .search--light .search-box > input.focus { box-shadow: 0 0 0 2px rgba(34, 34, 34, 0.4); }
+.root[data-is-touch] .search--light .search-box > input.focus { box-shadow: 0 0 0 0px rgba(34, 34, 34, 0.4); }
 
-.search--dark .search-box > input { color: rgba(255, 255, 255, 0.95); border-color: rgba(255, 255, 255, 0.95); }
+.search--dark .search-box > input { color: rgba(255, 255, 255, 0.95); border: 0px; border-bottom: 2px solid rgba(255, 255, 255, 0.95); }
 
-.root[data-is-touch] .search--dark .search-box > input.focus { box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4); }
+.root[data-is-touch] .search--dark .search-box > input.focus { box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.4); }
 
 .search-box > .search-box__icon-search { color: #888; }
 
@@ -2482,7 +2482,7 @@ a > .item__header.disabled, a > .item__header:disabled, a.item__header.disabled,
 
 .search-box > .search-box__icon-search { top: 0; left: 0; }
 
-.search__cancel { margin-left: 0.5rem; font-weight: 700; white-space: nowrap; }
+.search__cancel { margin-left: 0.5rem; font-weight: 700; white-space: nowrap; text-align: center; vertical-align: middle; }
 
 .search-result { margin: 1.5rem 0; font-size: 0.85rem; line-height: 1.4; }
 
@@ -2492,7 +2492,7 @@ a > .item__header.disabled, a > .item__header:disabled, a.item__header.disabled,
 
 .search--dark .search-result__header { color: rgba(255, 255, 255, 0.85); }
 
-.search-result__item { list-style-type: none; }
+.search-result__item { list-style-type: none; font-size: 0.85rem; }
 
 .search-result__item a { padding: 0.25rem 1rem; -webkit-transition: none; transition: none; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
