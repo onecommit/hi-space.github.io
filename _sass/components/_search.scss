@@ -37,7 +37,7 @@
 .search-box {
   position: relative;
   width: 100%;
-  max-width: 22rem;
+  // max-width: 22rem;
   @include media-breakpoint-down(md) {
     width: 100%;
     max-width: none;
@@ -49,10 +49,11 @@
     padding: 0 2rem;
     margin: 0;
     line-height: 1 !important;
+    font-size: map-get($base, font-size-lg);
     color: $text-color;
     background-color: transparent;
-    border: 2px solid $border-color;
-    border-radius: map-get($button, pill-radius);
+    border-bottom: 2px solid $border-color;
+    // border-radius: map-get($button, pill-radius);
     -webkit-appearance: none; /* fix iOS don't display box-shadow properly */
     @include transition(box-shadow map-get($animation, duration) map-get($animation, timing-function));
     @include focus {
@@ -60,16 +61,18 @@
     }
     .search--light & {
       color: $text-color-theme-light;
-      border-color: $text-color-theme-light;
+      border: 0px;
+      border-bottom: 2px solid $text-color-theme-light;
       @include focus {
-        box-shadow: 0 0 0 2px rgba($text-color-theme-light, .4);
+        box-shadow: 0 0 0 0px rgba($text-color-theme-light, .4);
       }
     }
     .search--dark & {
       color: $text-color-theme-dark;
-      border-color: $text-color-theme-dark;
+      border: 0px;
+      border-bottom: 2px solid $text-color-theme-dark;
       @include focus {
-        box-shadow: 0 0 0 2px rgba($text-color-theme-dark, .4);
+        box-shadow: 0 0 0 0px rgba($text-color-theme-dark, .4);
       }
     }
   }
@@ -120,6 +123,8 @@
   margin-left: map-get($spacers, 2);
   font-weight: map-get($base, font-weight-bold);
   white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .search-result {
@@ -144,6 +149,7 @@
 
 .search-result__item {
   list-style-type: none;
+  font-size: map-get($base, font-size-sm);
   a {
     padding: map-get($spacers, 1) map-get($spacers, 3);
     @include transition(none);
