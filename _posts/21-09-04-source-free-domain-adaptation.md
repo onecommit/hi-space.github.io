@@ -9,7 +9,7 @@ tags: ai paper 📝 🔥
 # Paper
 
 - 2021
-- https://arxiv.org/pdf/2103.16372.pdf
+- [Paper](https://arxiv.org/pdf/2103.16372.pdf)
 
 ---
 

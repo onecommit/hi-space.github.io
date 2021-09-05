@@ -28,7 +28,7 @@ tags: ai paper 🔥
 
 # SceneX: COMPLEX SCENE GENERATOR
 
-![](../assets/images/21-09-04-paper-2004-14684-sceneX.png)
+![](/assets/images/21-09-04-paper-2004-14684-sceneX.png)
 
 - sceneX는 몇가지 global attribute를 통해 complx scene을 생성한다.
 - global attriute를 사용하면 search space가 작아지게 된다.
