@@ -1,5 +1,6 @@
 ---
 title: rsync 를 이용한 파일 Copy
+category: ENV
 tags: ubuntu
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Ubuntu - Google Drive 동기화
+category: ENV
 tags: env ubuntu
 ---
 
@@ -8,48 +9,6 @@ tags: env ubuntu
 그래서 ubuntu의 특정 폴더를 동기화 하는 방법이 없나 찾아보게 되었다.
 
 <!--more-->
-
-# [Grive](https://github.com/vitalif/grive2)
-
-Grive라는 Google Drive API를 이용해 로컬 디스크와 동기화 할 수 있다. 
-
-1. Grive2 설치
-
-### Dependencies
-
-```sh
-sudo apt-get install git cmake build-essential libgcrypt20-dev libyajl-dev \
-    libboost-all-dev libcurl4-openssl-dev libexpat1-dev libcppunit-dev binutils-dev \
-    debhelper zlib1g-dev dpkg-dev pkg-config
-```
-
-### Build
-
-```sh
-git clone https://github.com/vitalif/grive2.git
-cd grive2
-dpkg-buildpackage -j4 --no-sign
-sudo dpkg -i grive_0.5.2+git20210315_amd64.deb 
-```
-
-빌드를 해주면 `.deb` 파일이 생성되는데, 해당 파일을 설치해준다.
-
-2. 구글 드라이브 권한 획득
-
-```sh
-mkdir google-drive
-cd google-drive
-grive -a
-```
-
-`-a` 파라미터와 함께 입력하게 되면 인증을 할 수 있도록 권한 획득 URL 이 뜬다. 해당 링크로 접속해 Google 계정에 로그인한다. 계정에 로그인 하고 인증을 하면 code가 뜨는데 그 code를 다시 붙여주면 된다.
-
-3. 동기화
-
-```sh
-cd google-drive
-grive
-```
 
 # [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse)
 
@@ -120,6 +79,48 @@ google-drive-ocamlfuse google-drive
 
 ```sh
 fusermount -u google-drive
+```
+
+# [Grive](https://github.com/vitalif/grive2)
+
+Grive라는 Google Drive API를 이용해 로컬 디스크와 동기화 할 수 있다. 
+
+1. Grive2 설치
+
+### Dependencies
+
+```sh
+sudo apt-get install git cmake build-essential libgcrypt20-dev libyajl-dev \
+    libboost-all-dev libcurl4-openssl-dev libexpat1-dev libcppunit-dev binutils-dev \
+    debhelper zlib1g-dev dpkg-dev pkg-config
+```
+
+### Build
+
+```sh
+git clone https://github.com/vitalif/grive2.git
+cd grive2
+dpkg-buildpackage -j4 --no-sign
+sudo dpkg -i grive_0.5.2+git20210315_amd64.deb 
+```
+
+빌드를 해주면 `.deb` 파일이 생성되는데, 해당 파일을 설치해준다.
+
+2. 구글 드라이브 권한 획득
+
+```sh
+mkdir google-drive
+cd google-drive
+grive -a
+```
+
+`-a` 파라미터와 함께 입력하게 되면 인증을 할 수 있도록 권한 획득 URL 이 뜬다. 해당 링크로 접속해 Google 계정에 로그인한다. 계정에 로그인 하고 인증을 하면 code가 뜨는데 그 code를 다시 붙여주면 된다.
+
+3. 동기화
+
+```sh
+cd google-drive
+grive
 ```
 
 # Conclusion

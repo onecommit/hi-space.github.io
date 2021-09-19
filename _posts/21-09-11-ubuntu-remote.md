@@ -1,5 +1,6 @@
 ---
 title: Ubuntu 원격 접속 (VNC)
+category: ENV
 tags: env ubuntu
 ---
 
