@@ -1,34 +1,37 @@
 ---
 title: RuntimeError Error(s) in loading state_dict for ResNet
-category: TIP
-tags: tip pytorch
+category: TROUBLESHOOTING
+tags: troubleshooting pytorch
 ---
 
-GPU 현 상태를 확인하기 위한 툴
+RuntimeError: Error(s) in loading state_dict for ResNet:
 
 <!--more-->
 
-## nvidia-smi
+## Problem
 
-![](/assets/images/21-09-18-ubuntu-deep-learning-env-nvidia-smi.png)
+```py
+saved_state_dict = torch.load(args.restore_from)
 
-```sh
-watch -d -n 0.5 nvidia-smi
+new_params = model.state_dict().copy()
+for i in saved_state_dict:
+    i_parts = i.split('.')
+    if not args.num_classes == 19 or not i_parts[1] == 'layer5':
+        new_params['.'.join(i_parts[1:])] = saved_state_dict[i]
+
+model.load_state_dict(new_params)
 ```
 
-## gpustat
+Pytorch 에서 checkpoint로 저장한 동일한 모델을 다시 불러올 때 Error 발생.
 
-```sh
-# Install
-pip install gpustat
+## Solution
 
-# Usages
-sudo nvidia-smi daemon
-gpustat -i -P
+Pytorch와 Jupyter notebook의 버전이 맞지 않아 발생하는 문제. `load_state_dict(new_params)` 부분을 아래와 같이 수정해준다.
+
+```py
+model.load_state_dict(checkpoint['state_dict'], strict=False)
 ```
 
-![](/assets/images/21-09-18-ubuntu-deep-learning-env-gpustat.png)
+### References
 
-# References
-
-- [UBUNTU에서 GPU 모니터링 하는 4가지 방법](https://eungbean.github.io/2018/08/23/gpu-monitoring-tool-ubuntu/)
+- [RuntimeError: Error(s) in loading state_dict for ResNet:](https://stackoverflow.com/questions/54058256/runtimeerror-errors-in-loading-state-dict-for-resnet)

@@ -31,12 +31,14 @@ rsync [options ...] [source] [target]
 - `--partial`: rsync는 전송중에 인터럽트가 발생하면 전송하던 파일을 삭제하는게 기본값인데, 이 옵션을 사용하면 전송된 부분파일을 남기고 다음부분부터 재전송 할 수 있게하여 속도를 빠르게 할 수 있다
 - `--progress`: 전송 시 진행상황 표시
 - `--delete`: 원본 소스에 없는 파일은 백업 서버에서 삭제
-- `--exclude`: 제외할 파일 지정 (ex) `--include="*.txt"`
+- `--exclude`: 제외할 파일 지정 (ex) `--exclude="*.txt"`
 - `--include`: 포함할 파일 지정 (ex) `--include="*.png"`
 - `-P`: (= `--partial --progress`)
 - `-D`: 디바이스 파일 보존 (= `--devices --specials`)
 
 ### Example
+
+#### Local -> Google Drive Folder
 
 ```sh
 rsync -vzhu --progress images/* ~/bk/
@@ -49,4 +51,9 @@ rsync -vzhu --progress images/* ~/bk/
 
 이런 식으로 이동시킬 파일의 갯수와 현재 완료한 파일 갯수 정보를 볼 수 있는 것도 좋았다.
 
+#### Local -> Local
+
+```sh
+rsync -rhvP * ~/bk/
+```
 
