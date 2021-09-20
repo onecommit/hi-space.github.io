@@ -11,7 +11,8 @@ Multi teacher (Region-level teacher와 Sample-level teacher) 를 이용해 stude
 # Paper
 
 - **CVPR2021**
-- https://arxiv.org/pdf/2103.04705.pdf
+- [Paper](https://arxiv.org/pdf/2103.04705.pdf)
+- [Related Post](https://hi-space.github.io/ai/2021/09/19/semi-supervised-domain-adaptation-dual-level-domain-mixing.html)
 
 # Method
 

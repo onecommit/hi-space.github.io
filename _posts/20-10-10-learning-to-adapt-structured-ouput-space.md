@@ -1,5 +1,5 @@
 ---
-title: Learning to Adapt Structured Output Space for Semantic Segmentation
+title: Learning to Adapt Structured Output Space for Semantic Segmentation (AdaptSegNet)
 category: AI
 tags: ai paper 🔥
 ---
@@ -9,7 +9,8 @@ tags: ai paper 🔥
 # Paper
 
 - CVPR 2018
-- https://arxiv.org/pdf/1802.10349.pdf
+- [Paper](https://arxiv.org/pdf/1802.10349.pdf)
+- [Github](https://github.com/wasidennis/AdaptSegNet)
 
 ---
 
@@ -68,3 +69,7 @@ GTA 데이터에서 Cityscapes 데이터로 adapted 시킨 결과물이다. feat
 - [[CVPR'18] Learning to Adapt Structured Output Space for Semantic Segmentation](https://hyungukchoi.blogspot.com/2019/12/cvpr18-learning-to-adapt-structured.html)
 
 - [신경망을 의도적으로 속이는 방법](https://medium.com/@jongdae.lim/%EA%B8%B0%EA%B3%84-%ED%95%99%EC%8A%B5-machine-learning-%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D-%EC%9D%80-%EC%A6%90%EA%B2%81%EB%8B%A4-part-8-d9507cf20352)
+
+- [AdaptSeg & ADVENT teardown reports](https://junha1125.github.io/blog/pytorch-docker-git/2021-06-11-AdapSegAdvent/)
+
+- [Reproduce Github](https://github.com/seominseok0429/domain-adaptation-for-segmentation-toolbox)
