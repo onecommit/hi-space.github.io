@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 폴더 용량 확인
+title: Ubuntu 폴더 용량 확인 (du, df)
 category: ENV
 tags: env ubuntu
 ---

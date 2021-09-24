@@ -2,6 +2,9 @@
 title: Single-Source Unsupervised Visual Domain Adaptation 정리
 category: AI
 tags: ai paper 🔥
+article_header:
+    background_image: false
+cover: /assets/images/21-09-04-source-free-domain-adaptation-duda-pipeline.png
 ---
 
 A Review of Single-Source Deep Unsupervised Visual Domain Adaptation 정리

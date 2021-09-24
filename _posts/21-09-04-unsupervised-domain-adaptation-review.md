@@ -2,6 +2,9 @@
 title: 📝 Unsupervised Domain Adaptation in Semantic Segmentation
 category: AI
 tags: ai paper 📝 🔥
+article_header:
+    background_image: false
+cover: /assets/images/21-09-04-unsupervised-domain-adaptation-review-2021-09-04-21-18-45.png
 ---
 
 <!--more-->

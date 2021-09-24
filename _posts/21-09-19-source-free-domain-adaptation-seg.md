@@ -8,7 +8,7 @@ Source-Free Domain Adaptation for Semantic Segmentation
 
 <!--more-->
 
-- [Related Post](https://arxiv.org/pdf/2103.16372.pdf)
+- [Paper](https://arxiv.org/pdf/2103.16372.pdf)
 
 # Abstract
 

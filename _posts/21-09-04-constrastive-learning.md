@@ -2,6 +2,12 @@
 title: Contrastive Learning
 category: AI
 tags: ai 🔥
+article_header:
+    type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/21-09-04-self-supervised-learning-2021-09-04-16-01-14.png
 ---
 
 여러 이미지들 중 비슷한 이미지(positive pair)를 서로 가깝게 하면서, 동시에 이 둘을 비슷하지 않은 이미지(negative pair)와 멀리 떨어지게 하는 것
