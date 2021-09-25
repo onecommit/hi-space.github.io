@@ -14,4 +14,26 @@
   img.circle, .circle > img {
     border-radius: 50%;
   }
+
+  img.zoom, .zoom > img {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba(255,255,255,.9);
+      padding: 20px;
+      box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+      z-index: 999;
+      transform: scale(1.7);
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
 }
