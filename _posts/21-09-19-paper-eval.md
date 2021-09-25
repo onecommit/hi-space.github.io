@@ -1,5 +1,5 @@
 ---
-title: 💡 Paper Idea
+title: 💡 Paper 실험
 tags: paper 💡 🔥
 ---
 
