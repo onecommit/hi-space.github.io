@@ -3,8 +3,6 @@ title: Python Logger로 파일에 Log 저장
 tags: python
 ---
 
-Python에서 logger를 이용해 파일에 로그 저장
-
 <!--more-->
 
 ```py

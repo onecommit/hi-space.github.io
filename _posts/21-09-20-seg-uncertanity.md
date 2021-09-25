@@ -2,7 +2,6 @@
 title: Unsupervised Scene Adaptation with Memory Regularization in vivo (Seg-Uncertanity)
 category: AI
 tags: ai paper 🔥
-
 article_header:
     type: overlay
     theme: dark
