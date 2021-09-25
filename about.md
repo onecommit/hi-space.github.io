@@ -14,7 +14,7 @@ key: page-about
 
 ## Career
 
-#### _2015/01 - 2021/09_ 　　　 Samsung Research, Samsung Electronics
+#### Samsung Research, Samsung Electronics  　　　<sub><sup>_2015/01 - 2021/09_</sup></sub>
 
 ---
 

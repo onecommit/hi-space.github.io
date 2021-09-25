@@ -1,6 +1,6 @@
 ---
 layout: about
-titles: About
+titles: About-Detail
 key: page-about-detail
 ---
 
