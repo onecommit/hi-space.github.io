@@ -20,4 +20,4 @@ key: page-about
 
 # Contacts
 
-Please contact me on [Email]() or [LinkedIn](https://www.linkedin.com/in/yoo-lee/).
+Please contact me on [Email](mailto:hispace.j@gmail.com) or [LinkedIn](https://www.linkedin.com/in/yoo-lee/).

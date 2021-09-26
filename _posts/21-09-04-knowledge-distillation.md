@@ -8,7 +8,7 @@ Ensemble 을 통해 얻을 수 있는 generalization 능력을 상대적으로 �
 
 <!--more-->
 
-Knowledge Distillation는 Distilling the Knowlege in a Neural Network (NIPS 2014 Workshop) 에서 처음 제안된 개념이다. 이 논문은 그 방법에 대해 제안하고 있다.
+Knowledge Distillation는 Distilling the Knowlege in a Neural Network (NIPS 2014 Workshop) 에서 처음 제안된 개념이다. 기존의 앙사블의 거대하고 큰 모델에서 예측된 확률을 Pseudo label로 사용하는 방법이다. 
 
 ## Knowledge Distilation (지식 증류)
 
@@ -30,9 +30,13 @@ Knowledge Distillation는 Distilling the Knowlege in a Neural Network (NIPS 2014
 - Pros : inference가 빠르다
 - Cons : Teacher network 보다는 성능이 떨어진다
 
-## Soft Label
+### Soft Label
 
 Knowledge Distiliation을 위해 Soft Label 을 사용한다. 
 
 - 보통 Classification 학습을 할 때 one-hot encoding이 된 Hard Label을 이용해 학습한다. 여기서 hard를 discrete 라고 생각하면 된다. [0, 1, 0, 0]
 - Soft label은 discrete한 값이 아닌 확률값을 label로 사용하는 것을 말한다. [.05, .3, .2, .005]
+
+# Reference
+
+- [Knowledge Distillation 리뷰](https://ezobear.github.io/model%20compression/2020/01/02/KD-post.html)
