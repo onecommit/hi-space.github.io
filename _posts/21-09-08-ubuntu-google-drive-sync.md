@@ -1,5 +1,5 @@
 ---
-title: Ubuntu - Google Drive 동기화
+title: "[Ubuntu] Google Drive 동기화"
 category: ENV
 tags: env ubuntu
 ---

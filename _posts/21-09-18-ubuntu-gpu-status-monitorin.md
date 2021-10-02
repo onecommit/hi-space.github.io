@@ -1,5 +1,5 @@
 ---
-title: Ubuntu GPU 상태 모니터링
+title: "[Ubuntu] GPU 상태 모니터링"
 category: ENV
 tags: env ubuntu
 ---

@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 공유폴더를 위한 samba 설치
+title: "[Ubuntu] 공유폴더를 위한 samba 설치"
 category: ENV
 tags: env ubuntu
 ---

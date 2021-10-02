@@ -1,5 +1,5 @@
 ---
-title: Ubuntu Deep learning 개발환경 세팅
+title: "[Ubuntu] Deep learning 개발환경 세팅"
 category: ENV
 tags: env ubuntu
 ---

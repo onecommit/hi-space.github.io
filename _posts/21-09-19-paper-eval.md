@@ -237,7 +237,7 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 ===> mIoU: 44.23
 ```
 
-### agc_640x360_b2
+### aagc_640x360_b2
 
 - epoch: 115000
 - crop_size: 640x360
@@ -293,4 +293,34 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 ===>motocycle:  14.6
 ===>bicycle:    26.76
 ===> mIoU: 44.42
+```
+
+## aagc_640x360_b2_student
+
+- epoch: 40000
+- crop_size: 640x360
+- batch size: 2
+- cyclegta
+
+```sh
+===>road:       88.78
+===>sidewalk:   44.98
+===>building:   83.67
+===>wall:       30.68
+===>fence:      23.65
+===>pole:       38.28
+===>light:      40.38
+===>sign:       42.62
+===>vegetation: 84.86
+===>terrain:    40.18
+===>sky:        85.6
+===>person:     57.97
+===>rider:      20.89
+===>car:        70.89
+===>truck:      28.74
+===>bus:        35.36
+===>train:      6.36
+===>motocycle:  28.98
+===>bicycle:    29.1
+===> mIoU: 46.42
 ```
