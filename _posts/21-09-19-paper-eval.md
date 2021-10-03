@@ -297,7 +297,7 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 
 ## aagc_640x360_b2_student
 
-- epoch: 40000
+- epoch: 20000
 - crop_size: 640x360
 - batch size: 2
 - cyclegta
@@ -323,4 +323,66 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 ===>motocycle:  28.98
 ===>bicycle:    29.1
 ===> mIoU: 46.42
+```
+
+## aagc_640x360_b2_d1000
+
+- epoch: 20000
+- crop_size: 640x360
+- batch size: 2
+- cyclegta
+- cityscapes 데이터셋을 1000개만 사용
+
+```sh
+===>road:       85.81
+===>sidewalk:   43.68
+===>building:   78.32
+===>wall:       22.36
+===>fence:      18.93
+===>pole:       37.12
+===>light:      32.0 
+===>sign:       42.13
+===>vegetation: 76.79
+===>terrain:    38.22
+===>sky:        63.99
+===>person:     57.86
+===>rider:      23.76
+===>car:        78.22
+===>truck:      7.97 
+===>bus:        18.39
+===>train:      1.94 
+===>motocycle:  15.45
+===>bicycle:    39.07
+===> mIoU: 41.16 
+```
+
+## gc_640x360_b2_d1000
+
+- epoch: 10000
+- crop_size: 640x360
+- batch size: 2
+- gta
+- cityscapes 데이터셋을 1000개만 사용
+
+```sh
+===>road:       38.07
+===>sidewalk:   24.37
+===>building:   51.74
+===>wall:       11.07
+===>fence:      18.88
+===>pole:       33.92
+===>light:      30.17
+===>sign:       36.62
+===>vegetation: 79.42
+===>terrain:    6.25
+===>sky:        61.99
+===>person:     58.76
+===>rider:      24.87
+===>car:        70.17
+===>truck:      13.29
+===>bus:        32.75
+===>train:      1.09
+===>motocycle:  23.69
+===>bicycle:    32.23
+===> mIoU: 34.18
 ```

@@ -7,7 +7,7 @@ article_header:
     theme: dark
     background_color: "#123"
     background_image: false
-cover: /assets/images/21-10-01-self-supervised-augmentation-consistency-2021-10-01-19-39-57.png
+# cover: /assets/images/21-10-01-self-supervised-augmentation-consistency-2021-10-01-19-39-57.png
 ---
 
 <!--more-->
@@ -15,6 +15,16 @@ cover: /assets/images/21-10-01-self-supervised-augmentation-consistency-2021-10-
 Semi-supervised learning 은 소량의 labeled 데이터를 사용한 학습 방법이다. 소량의 labeled 데이터로만 학습하게 되면 overfitting 과 같은 문제가 발생할 가능성이 크다. 그래서 소량의 labeled 데이터와 대량의 unlabeled 데이터를 함께 사용하여 성능을 향상시키기 위해 semi-supervised learning이 사용된다. 
 
 # Approach
+
+
+
+
+
+최근 준지도학습(Semi-supervised learning)에서는 label이 존재하지 않는 data에 noise를 주입한 뒤 모델이 noise가 없는 원본 데이터와 noise가 주입된 데이터를 동일한 class 분포로 예측하도록 학습하는 consistency regularization 방법이 많이 사용되고 있다.
+
+ReMixMatch는 최근 consistency regularization을 사용해 준지도학습에서 높은 성능을 기록했던 MixMatch의 후속 알고리즘으로 기존의 방식에서 unlabeled data의 예측 분포가 labeled data의 예측 분포의 양상을 따르도록 하는 Distribution Alignment와 weak augmentation과 strong augmentation을 함께 이용함으로써 강한 noise를 주입함에도 label 정보를 유지할 수 있는 Augmentation Anchoring의 두 가지 방식을 추가함으로써 높은 성능 향상을 이룩했다. 또한 간단하지만 효과적인 data augmentation 방법인 CTAugment 알고리즘을 제안한다.
+
+FixMatch는 마찬가지로 consistency regularization을 이용한 준지도학습 알고리즘으로 weak augmentation과 strong augmentation(RandAugment, CTAugment)에 pseudo-labeling 방법을 함께 도입해 높은 성능 향상을 이룩했다.
 
 
 ## Entropy Minimization
