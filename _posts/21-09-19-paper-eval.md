@@ -25,11 +25,11 @@ Semantic segmentation은 image classification / detection 에 비해 구조가 �
 
 ### cityspcaes 데이터셋으로 학습된 deeplab v3+ (backbone: resnet101) 로 cityscapes 데이터셋에 대해 test
 
-```py
+```sh
 python -u ./tools/eval.py \
---config-file configs/cityscapes_deeplabv3_plus_resnet.yaml \
---input-img /home/yoo/data/cityscapes/leftImg8bit/test/ \
-TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoints/deeplabv3_plus_resnet101_segmentron.pth
+    --config-file configs/cityscapes_deeplabv3_plus_resnet.yaml \
+    --input-img /home/yoo/data/cityscapes/leftImg8bit/test/ \
+    TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoints/deeplabv3_plus_resnet101_segmentron.pth
 ```
 
 ```sh
@@ -239,34 +239,6 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 
 ### aagc_640x360_b2
 
-- epoch: 115000
-- crop_size: 640x360
-- batch size: 2
-- cyclegta
-
-```sh
-===>road:       86.87
-===>sidewalk:   14.0
-===>building:   83.29
-===>wall:       22.49
-===>fence:      15.68
-===>pole:       35.08
-===>light:      28.66
-===>sign:       31.85
-===>vegetation: 85.69
-===>terrain:    40.54
-===>sky:        84.22
-===>person:     54.35
-===>rider:      27.72
-===>car:        84.78
-===>truck:      32.3
-===>bus:        17.38
-===>train:      0.33
-===>motocycle:  17.62
-===>bicycle:    21.33
-===> mIoU: 41.27
-```
-
 - epoch: 40000
 - crop_size: 640x360
 - batch size: 2
@@ -294,6 +266,8 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 ===>bicycle:    26.76
 ===> mIoU: 44.42
 ```
+
+# Student (Pseudo Labeling한 데이터셋 추가)
 
 ## aagc_640x360_b2_student
 
@@ -323,6 +297,70 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 ===>motocycle:  28.98
 ===>bicycle:    29.1
 ===> mIoU: 46.42
+```
+
+## aagc_640x360_b2_student_autoaug
+
+- epoch: 25000
+- crop_size: 640x360
+- batch size: 2
+- cyclegta
+- source autoaug
+
+```sh
+===>road:       88.61
+===>sidewalk:   36.18
+===>building:   83.27
+===>wall:       21.64
+===>fence:      23.35
+===>pole:       37.87
+===>light:      34.18
+===>sign:       44.43
+===>vegetation: 83.93
+===>terrain:    25.36
+===>sky:        82.0
+===>person:     58.68
+===>rider:      29.58
+===>car:        84.47
+===>truck:      30.46
+===>bus:        36.82
+===>train:      0.22
+===>motocycle:  20.42
+===>bicycle:    36.56
+===> mIoU: 45.16
+```
+
+# Target 데이터 수를 줄여가며 테스트
+
+## gc_640x360_b2_d1000
+
+- epoch: 10000
+- crop_size: 640x360
+- batch size: 2
+- gta
+- cityscapes 데이터셋을 1000개만 사용
+
+```sh
+===>road:       38.07
+===>sidewalk:   24.37
+===>building:   51.74
+===>wall:       11.07
+===>fence:      18.88
+===>pole:       33.92
+===>light:      30.17
+===>sign:       36.62
+===>vegetation: 79.42
+===>terrain:    6.25
+===>sky:        61.99
+===>person:     58.76
+===>rider:      24.87
+===>car:        70.17
+===>truck:      13.29
+===>bus:        32.75
+===>train:      1.09
+===>motocycle:  23.69
+===>bicycle:    32.23
+===> mIoU: 34.18
 ```
 
 ## aagc_640x360_b2_d1000
@@ -356,33 +394,33 @@ TEST.TEST_MODEL_PATH /home/yoo/workspace/SSL-Synthetic-Segmentation/seg/checkpoi
 ===> mIoU: 41.16 
 ```
 
-## gc_640x360_b2_d1000
+## aagc_640x360_b2_d500
 
-- epoch: 10000
+- epoch: 20000
 - crop_size: 640x360
 - batch size: 2
-- gta
-- cityscapes 데이터셋을 1000개만 사용
+- cyclegta
+- cityscapes 데이터셋을 500개만 사용
 
 ```sh
-===>road:       38.07
-===>sidewalk:   24.37
-===>building:   51.74
-===>wall:       11.07
-===>fence:      18.88
-===>pole:       33.92
-===>light:      30.17
-===>sign:       36.62
-===>vegetation: 79.42
-===>terrain:    6.25
-===>sky:        61.99
-===>person:     58.76
-===>rider:      24.87
-===>car:        70.17
-===>truck:      13.29
-===>bus:        32.75
-===>train:      1.09
-===>motocycle:  23.69
-===>bicycle:    32.23
-===> mIoU: 34.18
+===>road:       89.78
+===>sidewalk:   45.64
+===>building:   82.37
+===>wall:       24.37
+===>fence:      23.86
+===>pole:       37.2
+===>light:      34.28
+===>sign:       41.7
+===>vegetation: 84.31
+===>terrain:    40.03
+===>sky:        80.6
+===>person:     55.21
+===>rider:      23.53
+===>car:        81.14
+===>truck:      18.97
+===>bus:        32.25
+===>train:      3.72
+===>motocycle:  19.32
+===>bicycle:    39.36
+===> mIoU: 45.14
 ```

@@ -1,6 +1,6 @@
 ---
-title: Python Tensor 이미지 시각화 (make_grid)
-tags: python
+title: Pytorch Tensor 이미지 시각화 (make_grid)
+tags: pytorch
 article_header:
     type: overlay
     theme: dark
