@@ -1,9 +1,13 @@
 .layout--home {
   .pagination {
+    text-align: center;
     margin: map-get($spacers, 4) 0;
   }
   .pagination__menu {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     @include overflow(auto);
   }
   .pagination__omit {
