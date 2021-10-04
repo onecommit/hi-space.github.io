@@ -85,6 +85,7 @@
   }
   div { // no line case of console
     &[class^='language-console'],
+    &[class^='language-sh'],
     &.language-console.highlighter-rouge,
     &.language-terminal.highlighter-rouge {
       pre.lineno {
