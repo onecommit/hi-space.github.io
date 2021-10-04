@@ -2,6 +2,11 @@
 title: Domain Stylization
 category: AI
 tags: ai paper 🔥
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+cover: /assets/images/20-10-10-domain-stylization-2021-09-04-18-41-47.png
 ---
 
 A Strong, Simple Baseline for Synthetic to Real Image Domain Adaptation

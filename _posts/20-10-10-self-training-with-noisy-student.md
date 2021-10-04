@@ -2,6 +2,12 @@
 title: Self training with Noisy Student improves ImageNet classification
 category: AI
 tags: ai paper 🔥
+article_header:
+    type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/20-10-10-self-training-with-noisy-student-framework.png
 ---
 
 SOTA 모델에 unlabeled image를 활용하여 성능을 향상시키는 학습 방법

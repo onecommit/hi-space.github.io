@@ -182,7 +182,7 @@ python -u ./tools/eval.py \
 - epoch: 110000
 - crop_size: 640x360
 - batch size: 1
-- only gta
+- gta + citys
 
 ```sh
 ===>road:       83.99
@@ -212,7 +212,7 @@ python -u ./tools/eval.py \
 - epoch: 110000
 - crop_size: 640x360
 - batch size: 1
-- gta + cyclegta
+- gta + cyclegta + citys
 
 ```sh
 ===>road:       88.92
@@ -242,7 +242,7 @@ python -u ./tools/eval.py \
 - epoch: 40000
 - crop_size: 640x360
 - batch size: 2
-- cyclegta
+- cyclegta + citys
 
 ```sh
 ===>road:       89.43
@@ -267,6 +267,40 @@ python -u ./tools/eval.py \
 ===> mIoU: 44.42
 ```
 
+# Augmentation
+
+## aagc_640x360_b2_multiaug
+
+- epoch: 20000
+- crop_size: 640x360
+- batch size: 2
+- cyclegta + citys
+- source augmentation + target augmentation
+
+```sh
+===>road:       85.94
+===>sidewalk:   44.74
+===>building:   74.49
+===>wall:       22.06
+===>fence:      23.57
+===>pole:       35.94
+===>light:      29.81
+===>sign:       39.41
+===>vegetation: 81.76
+===>terrain:    34.36
+===>sky:        80.23
+===>person:     56.52
+===>rider:      24.77
+===>car:        76.53
+===>truck:      7.43
+===>bus:        22.8
+===>train:      10.1
+===>motocycle:  17.2
+===>bicycle:    32.39
+===> mIoU: 42.11
+```
+
+
 # Student (Pseudo Labeling한 데이터셋 추가)
 
 ## aagc_640x360_b2_student
@@ -274,7 +308,7 @@ python -u ./tools/eval.py \
 - epoch: 20000
 - crop_size: 640x360
 - batch size: 2
-- cyclegta
+- cyclegta + citys
 
 ```sh
 ===>road:       88.78
@@ -304,7 +338,7 @@ python -u ./tools/eval.py \
 - epoch: 25000
 - crop_size: 640x360
 - batch size: 2
-- cyclegta
+- cyclegta + citys
 - source autoaug
 
 ```sh
@@ -337,7 +371,7 @@ python -u ./tools/eval.py \
 - epoch: 10000
 - crop_size: 640x360
 - batch size: 2
-- gta
+- gta + citys
 - cityscapes 데이터셋을 1000개만 사용
 
 ```sh
@@ -368,7 +402,7 @@ python -u ./tools/eval.py \
 - epoch: 20000
 - crop_size: 640x360
 - batch size: 2
-- cyclegta
+- cyclegta + citys
 - cityscapes 데이터셋을 1000개만 사용
 
 ```sh
@@ -399,7 +433,7 @@ python -u ./tools/eval.py \
 - epoch: 20000
 - crop_size: 640x360
 - batch size: 2
-- cyclegta
+- cyclegta + citys
 - cityscapes 데이터셋을 500개만 사용
 
 ```sh
@@ -423,4 +457,107 @@ python -u ./tools/eval.py \
 ===>motocycle:  19.32
 ===>bicycle:    39.36
 ===> mIoU: 45.14
+```
+
+# Segmentation 모델만 데이터셋 줄여가며 테스트
+
+## cityscapes_seg 
+
+- epoch: 20000 (참고로 epoch 30000에서는 mIoU 69.12)
+- crop_size: 640x360
+- batch_size: 2
+- cityscapes only (2975)
+
+```sh
+===>road:       96.45
+===>sidewalk:   72.46
+===>building:   88.62
+===>wall:       48.61
+===>fence:      46.65
+===>pole:       46.26
+===>light:      54.82
+===>sign:       65.16
+===>vegetation: 88.13
+===>terrain:    50.95
+===>sky:        89.02
+===>person:     73.23
+===>rider:      54.42
+===>car:        91.93
+===>truck:      72.11
+===>bus:        75.82
+===>train:      60.83
+===>motocycle:  49.47
+===>bicycle:    67.58
+===> mIoU: 68.03
+```
+
+## cityscapes_seg_d1000
+
+- epoch: 20000
+- crop_size: 640x360
+- batch_size: 2
+- cityscapes only (1000)
+
+```sh
+
+```
+
+## cityscapes_seg_d500
+
+- epoch: 20000
+- crop_size: 640x360
+- batch_size: 2
+- cityscapes only (500)
+
+```sh
+===>road:       94.48
+===>sidewalk:   63.33
+===>building:   85.77
+===>wall:       22.97
+===>fence:      29.15
+===>pole:       42.14
+===>light:      34.21
+===>sign:       59.65
+===>vegetation: 86.16
+===>terrain:    43.79
+===>sky:        84.85
+===>person:     65.82
+===>rider:      43.31
+===>car:        87.9
+===>truck:      41.4
+===>bus:        51.61
+===>train:      18.1
+===>motocycle:  33.0
+===>bicycle:    64.02
+===> mIoU: 55.35
+```
+
+## cityscapes_seg_d100
+
+- epoch: 20000
+- crop_size: 640x360
+- batch_size: 2
+- cityscapes only (100)
+
+```sh
+===>road:       92.62
+===>sidewalk:   56.93
+===>building:   79.11
+===>wall:       5.75
+===>fence:      7.55
+===>pole:       35.35
+===>light:      3.63
+===>sign:       40.23
+===>vegetation: 84.5
+===>terrain:    21.24
+===>sky:        83.01
+===>person:     59.26
+===>rider:      1.35
+===>car:        86.35
+===>truck:      0.0
+===>bus:        42.24
+===>train:      0.0
+===>motocycle:  10.89
+===>bicycle:    59.52
+===> mIoU: 40.5
 ```

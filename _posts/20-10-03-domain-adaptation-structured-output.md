@@ -2,6 +2,12 @@
 title: Domain Adaptation for Structured Output via Discriminative Patch Representations
 category: AI
 tags: ai paper 🔥
+article_header:
+    type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/20-10-03-domain-adaptation-structured-output-2021-09-04-18-45-52.png
 ---
 
 <!--more-->

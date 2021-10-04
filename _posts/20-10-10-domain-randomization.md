@@ -2,6 +2,11 @@
 title: Training Deep Networks with Synthetic Data Bridging the Reality Gap by Domain Randomization
 category: AI
 tags: ai paper 🔥
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+cover: /assets/images/20-10-10-domain-randomization-2021-09-04-18-54-18.png
 ---
 
 <!--more-->

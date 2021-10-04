@@ -7,7 +7,7 @@ article_header:
     theme: dark
     background_color: "#123"
     background_image: false
-cover: /assets/images/21-10-01-ubuntu-tweak-theme-2021-10-01-16-09-48.png
+cover: /assets/images/21-09-04-ubuntu-terminator-terminator.png
 ---
 
 Ubuntu의 터미널 프로그램

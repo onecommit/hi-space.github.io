@@ -27,3 +27,4 @@ saved_state_dict = torch.load(args.restore_from, map_location="cuda:0")
 ## Reference
 
 - [장치(device)간 모델 저장하기 & 불러오기](https://tutorials.pytorch.kr/beginner/saving_loading_models.html#device)
+

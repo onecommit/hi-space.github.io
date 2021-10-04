@@ -2,13 +2,17 @@
 title: Learning to Simulate Complex Scenes
 category: AI
 tags: ai paper 🔥
+article_header:
+    type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/21-09-04-paper-2004-14684-sceneX.png
 ---
 
-<!--more-->
-
-# Paper
-
 - https://arxiv.org/pdf/2006.14611.pdf
+
+<!--more-->
 
 # Abstract
 
@@ -30,7 +34,7 @@ tags: ai paper 🔥
 
 # SceneX: COMPLEX SCENE GENERATOR
 
-![](../assets/images/21-09-04-paper-2004-14684-sceneX.png)
+![](/assets/images/21-09-04-paper-2004-14684-sceneX.png)
 
 - sceneX는 몇가지 global attribute를 통해 complx scene을 생성한다.
 - global attriute를 사용하면 search space가 작아지게 된다.

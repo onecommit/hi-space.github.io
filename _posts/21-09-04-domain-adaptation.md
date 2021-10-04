@@ -1,7 +1,13 @@
 ---
-title: 📝 Domain Adaptaion
+title: Domain Adaptaion
 category: AI
-tags: ai 📝 🔥
+tags: ai 🔥
+article_header:
+    type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/21-09-04-domain-adaptation-domain-gap.png
 ---
 
 <!--more-->

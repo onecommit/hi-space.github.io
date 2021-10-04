@@ -2,6 +2,11 @@
 title: Learning from Synthetic Data
 category: AI
 tags: ai paper 🔥
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+cover: /assets/images/20-10-10-learning-from-synthetic-data-2021-09-04-19-01-43.png
 ---
 
 Addressing Domain Shift for Semantic Segmentation

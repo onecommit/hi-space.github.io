@@ -8,6 +8,7 @@ article_header:
   type: overlay
   theme: dark
   background_color: '#123'
+cover: /assets/images/2021-09-04-jekyll-comment-disqus.png
 ---
 
 Jekyll 은 정적 페이지이기 때문에 댓글 기능을 만들기 위해서는 별도 외부 플러그인 사용이 필요하다.  

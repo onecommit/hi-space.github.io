@@ -79,12 +79,12 @@ Windows ffmpeg으로 테스트 했을 때
 
 # jpg image sequence to video
 
-```bash
+```
 ffmpeg -y -framerate 10 -i frame_%d.jpg -vcodec copy -vframes 20 -c:v mjpeg output.mp4
 ```
 
 # png image sequence to video
 
-```dart
+```
 ffmpeg -y -framerate 10 -i frame_%d.png -vcodec libx264 -pix_fmt yuv420p output.mp4
 ```

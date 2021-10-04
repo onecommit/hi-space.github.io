@@ -2,6 +2,12 @@
 title: Learning to Adapt Structured Output Space for Semantic Segmentation (AdaptSegNet)
 category: AI
 tags: ai paper 🔥
+article_header:
+    type: overlay # 포스트 내부에서 헤더 오버레이 적용여부
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/20-10-10-learning-to-adapt-structured-ouput-space-2021-09-04-18-49-09.png
 ---
 
 <!--more-->
