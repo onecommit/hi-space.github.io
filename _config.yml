@@ -183,7 +183,6 @@ analytics:
 # highlighter : rouge
 
 kramdown:
-  header_offset: 2
   syntax_highlighter: rouge
   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
