@@ -188,6 +188,7 @@ kramdown:
   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     default_lang: console
+    code_class: 'rouge-code'
     span:
       line_numbers: false
     block:
