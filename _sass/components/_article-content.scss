@@ -180,6 +180,10 @@
           margin: map-get($spacers, 1);
         }
       }
+      &::marker {
+        font-weight: 700;
+        color: $main-color-2;
+      }
     }
   }
   dl {
