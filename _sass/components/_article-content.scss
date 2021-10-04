@@ -83,9 +83,23 @@
       margin: 0;
     }
   }
+  div { // no line case of console
+    &[class^='language-console'],
+    &.language-console.highlighter-rouge,
+    &.language-terminal.highlighter-rouge {
+      pre.lineno {
+        display: none;
+      }
+    }
+  }
+
+  
   pre {
+    margin: 0;
     @include overflow(auto);
+    
     & > code {
+      overflow: auto;
       padding: 0;
       word-wrap: normal;
       background-color: transparent;
@@ -97,12 +111,44 @@
         &[data-processed] {
           display: block;
         }
+      }        
+      table {
+        overflow: auto;
+        margin: 0.5rem 0;
+        padding: 0;
+        border: 0;
+        tbody td pre {
+          overflow: auto;  /* Fixed iOS safari overflow-x */
+          word-break: normal; /* Fixed iOS safari linenos code break */
+        }
+      }
+      td {
+        overflow: auto;        
+        border: 0;
+      }
+      .lineno {
+        margin-left: 0.2rem;
+        padding-right: 0.5rem;
+        min-width: 2.0rem;
+        text-align: right;
+        color: var(--highlight-lineno-color);
+        border-right: 1px solid var(--highlight-lineno-border-color);
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+      }
+      .gp {
+        user-select: none;
       }
     }
   }
   .highlighter-rouge > .highlight, figure.highlight {
     & > pre {
-      padding: map-get($spacers, 3) 0 map-get($spacers, 3) map-get($spacers, 3);
+      // padding: map-get($spacers, 3) 0 map-get($spacers, 3) map-get($spacers, 3);
+      padding: 0;
       margin: 0;
       background-color: $text-background-color;
       border-radius: map-get($base, border-radius);
@@ -111,6 +157,7 @@
       }
     }
   }
+
   figure.highlight {
     &::before {
       display: block;

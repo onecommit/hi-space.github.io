@@ -96,7 +96,7 @@ chart: true # false (default), true
 
 ## => Paginate
 ##############################
-paginate: 5
+paginate: 10
 paginate_path: /page:num # don't change this unless for special need
 
 
@@ -179,19 +179,20 @@ analytics:
 
 ## => Build
 ##############################
-markdown    : kramdown
-highlighter : rouge
+# markdown    : kramdown
+# highlighter : rouge
 
-# kramdown:
-#   syntax_highlighter: rouge
-#   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
-#     css_class: highlight
-#     default_lang: console
-#     span:
-#       line_numbers: false
-#     block:
-#       line_numbers: true
-#       start_line: 1
+kramdown:
+  header_offset: 2
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 permalink   : date
 
