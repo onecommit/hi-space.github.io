@@ -181,7 +181,7 @@
         }
       }
       &::marker {
-        font-weight: 700;
+        font-weight: map-get($base, font-weight-bold);
         color: $main-color-2;
       }
     }
