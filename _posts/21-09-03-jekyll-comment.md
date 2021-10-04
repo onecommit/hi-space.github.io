@@ -8,6 +8,7 @@ article_header:
   type: overlay
   theme: dark
   background_color: '#123'
+  background_image: false
 cover: /assets/images/2021-09-04-jekyll-comment-disqus.png
 ---
 

@@ -2,9 +2,17 @@
 title: Self-supervised learning
 category: AI
 tags: ai 🔥
+article_header:
+    type: overlay
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/21-09-04-self-supervised-learning-2021-09-04-16-00-10.png
 ---
 
-Self-supervised learning의 배경과 approach에 대해 알아보자
+self-supervised 는 전혀 라벨링이 되어있지 않은 데이터로 학습을 진행하는 방식이다
+- Pretext task
+- Contrastive Learning
 
 <!--more-->
 
@@ -27,6 +35,14 @@ Labeling 작업에는 많은 노력과 비용이 요구된다. 이러한 문제�
 # History
 
 ## Pretext task (2014 ~ 2018)
+
+self-supervised learning에서는 사용자가 새로운 문제를 정의하는 과정이 필요하다. 이를 pretext task라고 하는데, pretext task를 학습함으로써 network 는 데이터 자체에 대한 이해를 높일 수 있게 된다.
+
+- **pretext task 로 pre-train 된 모델을 사용자가 풀고자하는 문제인 downstream task로 transfer learning 하는 접근 방식**이 Self-supervised learning의 핵심개념이다.  
+- Network로 하여금 만든 pretext task를 학습하게 하여 데이터 자체에 대한 이해를 높일 수 있게 하는 방식이다.
+- 대표적인 방식으로 Exemplar, context prediction, jigsaw puzzle count, rotation 가 있다.
+
+![](/assets/images/21-09-04-self-supervised-learning-2021-09-04-16-00-10.png)
 
 - pretext task를 잘 정의해서 주어진 입력 이미지들에 대한 정보를 잘 추출하는 방식
 - Exemplar, context prediction, jigsaw puzzle count, rotation
@@ -103,8 +119,8 @@ Contrastive Learning은 Positive pair와 Negative Pair로 구성된다. Positive
 
 # Reference
 
-[고려대학교 DMQA 연구실](http://dmqm.korea.ac.kr/activity/seminar/284)
-
-[[CV] Self-supervised learning(자기주도학습)과 Contrastive learning - 스스로 학습하는 알고리즘](https://daeun-computer-uneasy.tistory.com/37)
-
-[https://www.youtube.com/watch?v=5BCQ7T2Rw1w&list=PLpIPLT0Pf7IoTAvBJ6FX1vAi-PIeSw9xK&index=31](https://www.youtube.com/watch?v=5BCQ7T2Rw1w&list=PLpIPLT0Pf7IoTAvBJ6FX1vAi-PIeSw9xK&index=31)
+- [고려대학교 DMQA 연구실](http://dmqm.korea.ac.kr/activity/seminar/284)
+- [[CV] Self-supervised learning(자기주도학습)과 Contrastive learning - 스스로 학습하는 알고리즘](https://daeun-computer-uneasy.tistory.com/37)
+- [https://www.youtube.com/watch?v=5BCQ7T2Rw1w&list=PLpIPLT0Pf7IoTAvBJ6FX1vAi-PIeSw9xK&index=31](https://www.youtube.com/watch?v=5BCQ7T2Rw1w&list=PLpIPLT0Pf7IoTAvBJ6FX1vAi-PIeSw9xK&index=31)
+- [Unsupervised Visual Representation Learning Overview (Self-Supervision)](https://seongkyun.github.io/study/2019/11/29/unsupervised/)
+- [Pretex task 리뷰에 대한 세미나 자료](http://dmqm.korea.ac.kr/activity/seminar/284)

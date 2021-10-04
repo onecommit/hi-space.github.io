@@ -10,13 +10,12 @@ article_header:
 cover: /assets/images/20-10-10-self-training-with-noisy-student-framework.png
 ---
 
-SOTA 모델에 unlabeled image를 활용하여 성능을 향상시키는 학습 방법
-
-<!--more-->
-
 - CVPR 2020
 - [Paper](https://arxiv.org/pdf/1911.04252.pdf)
 - [Github](https://github.com/google-research/noisystudent)
+- SOTA 모델에 unlabeled image를 활용하여 성능을 향상시키는 학습 방법
+
+<!--more-->
 
 # Introduction
 

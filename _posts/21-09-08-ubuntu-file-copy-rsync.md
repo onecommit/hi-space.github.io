@@ -4,9 +4,17 @@ category: ENV
 tags: ubuntu
 ---
 
-Remote sync. 디렉토리나 파일들을 로컬/원격으로 복사하는 툴이다. 동기화 해서 백업용으로 주로 사용되는 툴인 만큼 데이터 압축이나 변경된 파일 내용 파악, 전송속도 등 다양한 기능들을 제공한다.
+```sh
+# Local -> Remote
+rsync -vzhu --progress images/* ~/bk/
+	
+# Local -> Local
+rsync -rhvP * ~/bk/
+```
 
 <!--more-->
+
+rsnyc(Remote sync)는 디렉토리나 파일들을 로컬/원격으로 복사하는 툴이다. 동기화 해서 백업용으로 주로 사용되는 툴인 만큼 데이터 압축이나 변경된 파일 내용 파악, 전송속도 등 다양한 기능들을 제공한다.
 
 # Usages
 

@@ -10,11 +10,11 @@ article_header:
 cover: /assets/images/21-10-01-semi-supervised-learning-semi-supervised-learning.png
 ---
 
-Semi-supervised learning 은 소량의 labeled 데이터를 사용한 학습 방법이다. 소량의 labeled 데이터로만 학습하게 되면 overfitting 과 같은 문제가 발생할 가능성이 크다. 그래서 **소량의 labeled 데이터와 대량의 unlabeled 데이터를 함께 사용하여 성능을 향상**시키기 위해 semi-supervised learning이 사용된다. 
-
 <!--more-->
 
 # Approach
+
+Semi-supervised learning 은 소량의 labeled 데이터를 사용한 학습 방법이다. 소량의 labeled 데이터로만 학습하게 되면 overfitting 과 같은 문제가 발생할 가능성이 크다. 그래서 **소량의 labeled 데이터와 대량의 unlabeled 데이터를 함께 사용하여 성능을 향상**시키기 위해 semi-supervised learning이 사용된다. 
 
 ![](/assets/images/21-10-01-semi-supervised-learning-semi-supervised-learning.png)
 

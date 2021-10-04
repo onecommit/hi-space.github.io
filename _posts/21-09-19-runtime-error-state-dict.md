@@ -4,7 +4,9 @@ category: TROUBLESHOOTING
 tags: troubleshooting pytorch
 ---
 
-RuntimeError: Error(s) in loading state_dict for ResNet:
+```py
+model.load_state_dict(checkpoint['state_dict'], strict=False)
+```
 
 <!--more-->
 

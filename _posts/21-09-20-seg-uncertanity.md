@@ -10,11 +10,10 @@ article_header:
 cover: /assets/images/21-09-20-seg-uncertanity-2021-09-25-13-47-22.png
 ---
 
-Unsupervised Scene Adaptation with Memory Regularization in vivo
+- [Paper](https://arxiv.org/pdf/1912.11164.pdf)
+- [Github](https://github.com/layumi/Seg-Uncertainty)
 
 <!--more-->
-
-- [Paper](https://arxiv.org/pdf/1912.11164.pdf)
 
 # Abstract
 

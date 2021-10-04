@@ -10,12 +10,11 @@ article_header:
 cover: /assets/images/21-10-03-fixmatch-diagram.png
 ---
 
-Semi-supervised learning에서 Pseudo-labeling과 consistency regularization을 결합한 방법
-
-<!--more-->
-
 - [Paper](https://arxiv.org/ftp/arxiv/papers/2001/2001.07685.pdf)
-- [Github](https://github.com/visinf/da-sac)
+- [Github](https://github.com/google-research/fixmatch)
+- Semi-supervised learning에서 Pseudo-labeling과 consistency regularization을 결합한 방법
+  
+<!--more-->
 
 # Methods
 

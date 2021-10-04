@@ -4,9 +4,16 @@ category: ENV
 tags: env git
 ---
 
-Git 사용자 계정 등록 및 세션 유지를 위한 설정
+```sh
+git config --global user.name "이름"
+git config --global user.email "이메일@gmail.com"
+git config credential.helper store
+git config --global credential.helper 'cache --timeout 2592000'
+```
 
 <!--more-->
+
+Git 사용자 계정 등록 및 세션 유지를 위한 설정
 
 ## git config
 

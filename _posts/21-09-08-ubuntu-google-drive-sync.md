@@ -4,11 +4,20 @@ category: ENV
 tags: env ubuntu
 ---
 
+```sh
+sudo add-apt-repository ppa:alessandro-strada/ppa
+sudo apt update
+sudo apt install google-drive-ocamlfuse
+
+mkdir google-drive
+google-drive-ocamlfuse google-drive
+```
+
+<!--more-->
+
 학습 데이터셋을 구글 드라이브에 올리고 colab에서 mount 하여 사용하려고 한다. 
 웹으로 올리기엔 너무 많은 시간이 소요되고 그마저도 오랫동안 활동이 없으면 로그인이 자동으로 해제되어 데이터 업로드에 어려움이 있었다. 
 그래서 ubuntu의 특정 폴더를 동기화 하는 방법이 없나 찾아보게 되었다.
-
-<!--more-->
 
 # [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse)
 

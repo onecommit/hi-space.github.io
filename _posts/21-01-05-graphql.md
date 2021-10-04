@@ -4,8 +4,6 @@ category: WEB
 tags: web backend
 ---
 
-<!--more-->
-
 ## 개념
 
 - Graph Query Language
@@ -32,6 +30,8 @@ tags: web backend
 
 - 서로 다른 모양의 다양한 request에 대해 응답할 때
 - 대부분의 request가 CRUD에 해당할 때
+
+<!--more-->
 
 ## Apollo
 

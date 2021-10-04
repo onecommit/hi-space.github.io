@@ -6,17 +6,15 @@ article_header:
   type: overlay
   theme: dark
   background_color: '#123'
+  background_image: false
 cover: /assets/images/20-10-10-domain-randomization-2021-09-04-18-54-18.png
 ---
 
-<!--more-->
-
-# Paper
-
 - CVPR 2018
-- https://arxiv.org/pdf/1804.06516.pdf
+- [Paper](https://arxiv.org/pdf/1804.06516.pdf)
+- Simulation에서 Domain Randomization 기법을 적용하여 low cost로 대량의 이미지를 합성하여 데이터셋을 만들고 성능을 향상시키는 방법에 대해 제안
 
----
+<!--more-->
 
 # Introduction
 

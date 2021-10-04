@@ -3,27 +3,11 @@ title: 💡 Paper 실험
 tags: paper 💡 🔥
 ---
 
-Paper ideas
-
 <!--more-->
 
-### Idea 
+# deeplab v3+ (backbone: resnet101) 
 
-label 정보들이 있으니까 이 정보들을 이용하는 건 어떨까? previous knowledge와 함께 학습하는 거. 
-Contrastive learning 을 도입하는거지. 한 이미지 당 class 분포를 보고 비슷한 이미지들을 뽑아내고, 전혀 다른 class 가 있는 이미지들끼리는 비슷하지 않다고 알려주는거.
-
-> 도메인 이동은 일반적으로 조명 변경과 같은 이미징 프로세스에 의해 발생하므로 [26] 사전 지식을 적응 프로세스에 통합하면 성능이 향상될 수 있습니다. 적대적 방법의 경우 낮은 수준의 모양, 중간 수준의 기능 및 높은 수준의 의미와 같은 적응에서 공동으로 다중 수준 제약을 부과하면 원본 데이터의 구조와 속성을 더 잘 보존할 수 있으므로 더 나은 성능을 발휘할 수 있습니다. 대상 도메인에서 성능을 테스트하는 대신 적응의 품질을 평가하기 위해 효과적이고 직접적인 메트릭을 설계하면 GAN의 교육 프로세스를 가속화할 수 있습니다.
-
-Semantic segmentation은 image classification / detection 에 비해 구조가 중요함
-
-
----
-
-
-
-## Eval
-
-### cityspcaes 데이터셋으로 학습된 deeplab v3+ (backbone: resnet101) 로 cityscapes 데이터셋에 대해 test
+cityspcaes 데이터셋으로 학습된 deeplab v3+ (backbone: resnet101) 로 cityscapes 데이터셋에 대해 test
 
 ```sh
 python -u ./tools/eval.py \
@@ -78,7 +62,7 @@ python -u ./tools/eval.py \
 +------------+---------------+----------+
 ```
 
-## AdaptSegNet
+# AdaptSegNet
 
 ### multi_640x360_lsgan_b2 
 
@@ -110,7 +94,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 20.62
 ```
 
-## multi_640x360_lsgan_b1
+### multi_640x360_lsgan_b1
 
 - epoch: 150000
 - input size: 640 x 360
@@ -140,42 +124,11 @@ python -u ./tools/eval.py \
 ===> mIoU: 15.52
 ```
 
-![](/assets/images/21-09-19-paper-ideas-2021-09-25-02-12-27.png)
-![](/assets/images/21-09-19-paper-ideas-2021-09-25-02-12-57.png)
+# Style transfer 된 데이터 학습
 
-## Seg-Uncertanity
-
-![](/assets/images/21-09-19-paper-ideas-2021-09-25-02-15-00.png)
-![](/assets/images/21-09-19-paper-ideas-2021-09-25-02-15-40.png)
-
-### GTA_TO_CITY_CO
-
-- epoch: 2040000
-- crop_size: 384,192
-- batch_size: 2
-
-```sh
-===>road:       82.42
-===>sidewalk:   2.32
-===>building:   74.17
-===>wall:       7.1
-===>fence:      0.89
-===>pole:       22.48
-===>light:      1.04
-===>sign:       1.41
-===>vegetation: 84.74
-===>terrain:    22.89
-===>sky:        75.19
-===>person:     23.59
-===>rider:      0.0
-===>car:        81.18
-===>truck:      10.41
-===>bus:        2.81
-===>train:      0.0
-===>motocycle:  0.0
-===>bicycle:    0.0
-===> mIoU: 25.93
-```
+- CycleGAN을 이용해 GTA -> Cityscapes 데이터를 사용해 DA
+- generative model을 이용해 appearance를 비슷하게 style transfer 했을 때 domain의 gap이 적어진다
+- GTA 데이터 / GTA 데이터 + cycleGTA 데이터 / all cycleGTA 데이터 3가지 테스트
 
 ### gc_640x360_b1
 
@@ -215,6 +168,29 @@ python -u ./tools/eval.py \
 - gta + cyclegta + citys
 
 ```sh
+# epoch: 40000
+===>road:       91.34
+===>sidewalk:   45.88
+===>building:   80.35
+===>wall:       28.38
+===>fence:      23.42
+===>pole:       33.59
+===>light:      15.43
+===>sign:       36.43
+===>vegetation: 77.56
+===>terrain:    32.91
+===>sky:        64.97
+===>person:     55.25
+===>rider:      22.84
+===>car:        79.1
+===>truck:      19.43
+===>bus:        27.26
+===>train:      0.72
+===>motocycle:  18.64
+===>bicycle:    25.82
+===> mIoU: 41.02
+
+# epoch: 110000
 ===>road:       88.92
 ===>sidewalk:   37.42
 ===>building:   81.08
@@ -269,7 +245,10 @@ python -u ./tools/eval.py \
 
 # Augmentation
 
-## aagc_640x360_b2_multiaug
+- source domain 데이터는 cyclegta로 고정
+- 학습 데이터를 넣을 때 AutoAugmentation 했을 때 성능 비교
+
+### aagc_640x360_b2_multiaug
 
 - epoch: 20000
 - crop_size: 640x360
@@ -300,10 +279,12 @@ python -u ./tools/eval.py \
 ===> mIoU: 42.11
 ```
 
-
 # Student (Pseudo Labeling한 데이터셋 추가)
 
-## aagc_640x360_b2_student
+- Unlabeled 데이터에 hard labeling 하고 해당 데이터를 포함하여 학습
+- 좋은 성능을 보였던 `aagc_640x360_b1/GTA5_best.pth`(mIoU: 44.42) 를 restore 해서 추가 학습 진행
+
+### aagc_640x360_b2_student
 
 - epoch: 20000
 - crop_size: 640x360
@@ -333,7 +314,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 46.42
 ```
 
-## aagc_640x360_b2_student_autoaug
+### aagc_640x360_b2_student_autoaug
 
 - epoch: 25000
 - crop_size: 640x360
@@ -364,15 +345,16 @@ python -u ./tools/eval.py \
 ===> mIoU: 45.16
 ```
 
-# Target 데이터 수를 줄여가며 테스트
+# Target 데이터 수를 줄였을 때 DA 성능 테스트
 
-## gc_640x360_b2_d1000
+### gc_640x360_b2_d1000
 
 - epoch: 10000
 - crop_size: 640x360
 - batch size: 2
 - gta + citys
 - cityscapes 데이터셋을 1000개만 사용
+- ?? 데이터셋 줄였을 때 오히려 성능이 좋아졌다?
 
 ```sh
 ===>road:       38.07
@@ -397,7 +379,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 34.18
 ```
 
-## aagc_640x360_b2_d1000
+### aagc_640x360_b2_d1000
 
 - epoch: 20000
 - crop_size: 640x360
@@ -428,7 +410,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 41.16 
 ```
 
-## aagc_640x360_b2_d500
+### aagc_640x360_b2_d500
 
 - epoch: 20000
 - crop_size: 640x360
@@ -459,9 +441,13 @@ python -u ./tools/eval.py \
 ===> mIoU: 45.14
 ```
 
-# Segmentation 모델만 데이터셋 줄여가며 테스트
+# Segmentation 모델만 target 데이터셋 줄여가며 성능 테스트
 
-## cityscapes_seg 
+- 기존 사용하던 모델에서 discriminative 모델들을 제거하고 segmentation 모델로만 학습 진행
+- SL의 경우 데이터셋이 줄어듦에 따라 성능이 급격히 저하되는 것을 확인
+- but, 데이터가 아주 적어도 DA 보다 성능이 살짝 안좋다
+
+### cityscapes_seg 
 
 - epoch: 20000 (참고로 epoch 30000에서는 mIoU 69.12)
 - crop_size: 640x360
@@ -491,7 +477,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 68.03
 ```
 
-## cityscapes_seg_d1000
+### cityscapes_seg_d1000
 
 - epoch: 20000
 - crop_size: 640x360
@@ -502,7 +488,7 @@ python -u ./tools/eval.py \
 
 ```
 
-## cityscapes_seg_d500
+### cityscapes_seg_d500
 
 - epoch: 20000
 - crop_size: 640x360
@@ -532,7 +518,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 55.35
 ```
 
-## cityscapes_seg_d100
+### cityscapes_seg_d100
 
 - epoch: 20000
 - crop_size: 640x360

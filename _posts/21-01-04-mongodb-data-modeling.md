@@ -4,6 +4,11 @@ category: WEB
 tags: web backend db
 ---
 
+mongoDB의 모델링 구조는 크게 2가지로 나눌 수 있다.
+
+- Embedded
+- Reference
+
 <!--more-->
 
 # 💬 Document 관계 데이터 저장 유형

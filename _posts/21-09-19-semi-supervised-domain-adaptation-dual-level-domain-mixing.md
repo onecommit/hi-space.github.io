@@ -10,14 +10,11 @@ article_header:
 cover: /assets/images/21-09-04-domain-adaptation-dual-level-domain-mixing-SSDA%20framework.png
 ---
 
-Multi teacher (Region-level teacher와 Sample-level teacher) 를 이용해 student model에게 각기 다른 도메인에 대한 정보를 학습시켜준다. (Domain Mixing)
+- CVPR2021
+- [Paper](https://arxiv.org/pdf/2103.04705.pdf)
+- Multi teacher (Region-level teacher와 Sample-level teacher) 를 이용해 student model에게 각기 다른 도메인에 대한 정보를 학습시켜준다. (Domain Mixing)
 
 <!--more-->
-
-# Paper
-
-- **CVPR2021**
-- [Paper](https://arxiv.org/pdf/2103.04705.pdf)
 
 <details>
 <summary>Original</summary>

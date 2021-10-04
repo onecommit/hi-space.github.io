@@ -6,6 +6,17 @@ tags: env ubuntu
 
 폴더 용량을 확인할 때 du (disk usage) 명령어를 사용한다 + 파일 카운팅 / 리스팅
 
+```sh
+# 특정 폴더(하위 파일/폴더 포함)의 전체 용량을 확인
+du -sh [폴더]
+
+# 파일 시스템의 디스크 사용량 확인
+df -h -P
+
+# 파일 갯수 카운팅
+find /path/to/find -name '*.png' -type f | wc -l
+```
+
 <!--more-->
 
 ## 폴더 용량 확인

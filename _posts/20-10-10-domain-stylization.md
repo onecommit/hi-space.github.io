@@ -1,24 +1,20 @@
 ---
-title: Domain Stylization
+title: A Strong, Simple Baseline for Synthetic to Real Image Domain Adaptation (Domain Stylization)
 category: AI
 tags: ai paper 🔥
 article_header:
   type: overlay
   theme: dark
   background_color: '#123'
+  background_image: false
 cover: /assets/images/20-10-10-domain-stylization-2021-09-04-18-41-47.png
 ---
 
-A Strong, Simple Baseline for Synthetic to Real Image Domain Adaptation
+- 2018
+- [Paper](https://arxiv.org/pdf/1807.09384.pdf)
+- real 이미지와 synthetic 이미지를 무작위로 페어링해서 real 이미지의 스타일을 synthetic 이미지로 transfer
 
 <!--more-->
-
-# Paper
-
-- 2018
-- https://arxiv.org/pdf/1807.09384.pdf
-
----
 
 # Introduction
 

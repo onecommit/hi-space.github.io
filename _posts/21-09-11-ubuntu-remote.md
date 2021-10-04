@@ -1,10 +1,14 @@
 ---
 title: "[Ubuntu] 원격 접속 (VNC)"
 category: ENV
-tags: env ubuntu
+tags: env ubuntu mac
 ---
 
 Mac에서 Ubuntu로 원격 접속
+
+```sh
+sudo apt install xfce4 dbus-x11
+```
 
 <!--more-->
 
@@ -16,13 +20,13 @@ Mac에서 Ubuntu로 원격 접속
 sudo apt install vino dconf-editor
 ```
 
-1. Screen 공유 옵션 켜기
+### 1. Screen 공유 옵션 켜기
 
 ![](/assets/images/21-09-11-ubuntu-remote-2021-09-11-19-36-46.png)
 
 Ubuntu의 `Settings` - `Sharing` 메뉴에서 `Screen Sharing`을 Active 시켜준다.
 
-2. dconf-editor
+### 2. dconf-editor
 
 ```sh
 dconf-editor

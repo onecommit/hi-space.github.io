@@ -3,8 +3,6 @@ title: "[Flutter] Local device 경로에 file 쓰고 읽기"
 tags: flutter
 ---
 
-<!--more-->
-
 ```dart
 localFileRead() async {
     final directory = (await getApplicationDocumentsDirectory()).path;
@@ -20,3 +18,5 @@ localFileRead() async {
     print(contetns);
   }
 ```
+
+<!--more-->

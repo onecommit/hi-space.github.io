@@ -10,12 +10,12 @@ article_header:
 cover: /assets/images/21-10-01-self-supervised-augmentation-consistency-2021-10-01-19-39-57.png
 ---
 
-Self-supervised Augmentation Consistency for Adapting Semantic Segmentation (CVPR 2021)
-
-<!--more-->
-
+- CVPR 2021
 - [Paper](https://arxiv.org/pdf/2105.00097v1.pdf)
 - [Github](https://github.com/visinf/da-sac)
+- Self supervised learning 을 이용해 end-to-end로 공동 진화하는 pseudo labeling을 사용해 모델을 training 시키는 방법을 제안
+
+<!--more-->
 
 # Introduction
 

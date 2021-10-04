@@ -10,12 +10,12 @@ article_header:
 cover: /assets/images/21-10-01-meta-pseudo-label-2021-10-02-23-15-21.png
 ---
 
-Meta Pseudo Labels (CVPR 2021)
-
-<!--more-->
-
+- CVPR 2021
 - [Paper](https://arxiv.org/pdf/2003.10580.pdf)
 - [Github](https://github.com/kekmodel/MPL-pytorch)
+- Noisy student를 개선해 teacher 와 student 모델을 동시에 학습
+
+<!--more-->
 
 # Introduction
 

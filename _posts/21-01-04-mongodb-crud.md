@@ -4,6 +4,25 @@ category: WEB
 tags: web backend db
 ---
 
+```sh
+# Insert
+db.collection.insertOne()
+db.collection.insert Many()
+db.collection.insert()
+
+# Read
+db.collection.find()
+
+# Update
+db.collection.updateOne()
+db.collection.updateMany()
+db.collection.replaceOne()
+
+# Delete
+db.collection.deleteOne()
+db.collection.deleteMany()
+```
+
 <!--more-->
 
 # Create
@@ -12,7 +31,7 @@ tags: web backend db
 
 ```bash
 db.collection.insertOne()
-db.collection.insert Many()
+db.collection.insertMany()
 db.collection.insert()
 ```
 

@@ -6,14 +6,8 @@ article_header:
     theme: dark
     background_color: "#123"
     background_image: false
-cover: /assets/images/21-10-03-pytorch-image-visualize-2021-10-03-23-41-37.png
+# cover: /assets/images/21-10-03-pytorch-image-visualize-2021-10-03-23-41-37.png
 ---
-
-<!--more-->
-
-# [make_grid](https://pytorch.org/vision/stable/utils.html#torchvision.utils.make_grid)
-
-![](/assets/images/21-10-03-pytorch-image-visualize-2021-10-03-23-15-38.png)
 
 ```python
 import torchvision
@@ -24,6 +18,12 @@ plt.show()
 ```
 
 `make_grid`는 image grid를 포함한 tensor를 반환해준다. batch의 갯수만큼 포함해서 하나의 이미지로 출력해준다.
+
+<!--more-->
+
+> [make_grid documents](https://pytorch.org/vision/stable/utils.html#torchvision.utils.make_grid)
+
+![](/assets/images/21-10-03-pytorch-image-visualize-2021-10-03-23-15-38.png)
 
 ## Multiple Images
 

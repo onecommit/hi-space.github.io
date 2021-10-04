@@ -10,12 +10,6 @@ article_header:
   background_color: '#123'
 ---
 
-Jekyll 설치
-
-<!--more-->
-
-# Install
-
 ```sh
 sudo apt-get install ruby-full build-essential zlib1g-dev
 
@@ -27,3 +21,5 @@ source ~/.bashrc
 gem install jekyll bundler
 gem update --system
 ```
+
+<!--more-->

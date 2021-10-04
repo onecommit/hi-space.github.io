@@ -4,11 +4,9 @@ category: AI
 tags: ai paper 🔥
 ---
 
-Ensemble 을 통해 얻을 수 있는 generalization 능력을 상대적으로 작은 규모의 network가 받을 수 있다면 좋지 않을까? 
+Knowledge Distillation는 Distilling the Knowlege in a Neural Network (NIPS 2014 Workshop) 에서 처음 제안된 개념이다. 기존의 앙사블의 거대하고 큰 모델에서 예측된 확률을 Pseudo label로 사용하는 방법이다. 
 
 <!--more-->
-
-Knowledge Distillation는 Distilling the Knowlege in a Neural Network (NIPS 2014 Workshop) 에서 처음 제안된 개념이다. 기존의 앙사블의 거대하고 큰 모델에서 예측된 확률을 Pseudo label로 사용하는 방법이다. 
 
 ## Knowledge Distilation (지식 증류)
 

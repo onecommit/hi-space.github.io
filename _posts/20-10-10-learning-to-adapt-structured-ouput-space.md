@@ -10,15 +10,12 @@ article_header:
 cover: /assets/images/20-10-10-learning-to-adapt-structured-ouput-space-2021-09-04-18-49-09.png
 ---
 
-<!--more-->
-
-# Paper
-
 - CVPR 2018
 - [Paper](https://arxiv.org/pdf/1802.10349.pdf)
 - [Github](https://github.com/wasidennis/AdaptSegNet)
+- semantic segmentation에서 domain adaptation을 위한 adversarial learning을 적용
 
----
+<!--more-->
 
 # Introduction
 

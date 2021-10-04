@@ -2,9 +2,23 @@
 title: "[Ubuntu] GPU 상태 모니터링"
 category: ENV
 tags: env ubuntu
+article_header:
+    type: overlay
+    theme: dark
+    background_color: "#123"
+    background_image: false
+cover: /assets/images/21-09-18-ubuntu-deep-learning-env-nvidia-smi.png
 ---
 
-GPU 현 상태를 확인하기 위한 툴
+GPU 현 상태를 확인
+
+```sh
+watch -d -n 0.5 nvidia-smi
+# or
+pip install gpustat
+sudo nvidia-smi daemon
+gpustat -i -P
+```
 
 <!--more-->
 

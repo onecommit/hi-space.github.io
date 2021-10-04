@@ -2,16 +2,19 @@
 title: Meta-Sim - Learning to Generate Synthetic Datasets
 category: AI
 tags: ai paper 🔥
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+  background_image: false
+cover: /assets/images/20-10-03-meta-sim-synthetic-datasets-meta-sim.png
 ---
-
-<!--more-->
-
-# Paper
 
 - 2019
-- https://arxiv.org/pdf/1904.11621.pdf
+- [Paper](https://arxiv.org/pdf/1904.11621.pdf)
+- 자동으로 synthesize labeled dataset을 생성해서 generative model을 학습하고, 그래픽 엔진으로부터 그에 맞는 GT 데이터를 얻어내는 meta-sim을 제안
 
----
+<!--more-->
 
 # Abstract
 
@@ -22,17 +25,15 @@ tags: ai paper 🔥
 - render된 output과 target data 간의 distribution gap을 최소화 하기 위해 scene graph로 부터 각 속성을 변형할 수 있는 parameter들을 학습한다.
 - 약간의 labeled validation set이 존재할 때, meta-objective 의 성능을 최대화 한다. (downstream task 성능)
 
----
-
 # 1. Introduction
+
+![](/assets/images/20-10-03-meta-sim-synthetic-datasets-meta-sim.png)
 
 - 데이터 수집은 어려운 문제이다. virtual environments에서 synthetic 데이터를 생성하고 GT 데이터를 얻을 수 있다.  하지만 synthetic과 real-world간의 domain gap이 여전히 문제이다.
 - Domain gap을 해결하기 위한 synthetic-to-real domain adaptaiton 방법이 있다. synthetic image를 real world 데이터와 비슷하도록 스타일을 변형하는 방식이다. domain gap이 appearnace gap이라고 생각하고 low level에서 다르다고 판단하여 푼 문제이다.
 - 본 논문에서는 domain gap이 content gap으로 부터 온다고 가정한다. scene에서 각 물체들의 배치 등을 모사하는 것이 중요하다고 판단한 것이다.  Virtual KITTI 의 경우도 engieer와 artist 그룹이 Karlsruhe, Germany 가 녹화된 영상을 보고 obejct의 방향이나 위치를 매칭시켜 만들었다. 하지만 도시가 달라질 경우, traffic이나 여러가지 요소들은 변형될 거다. synthetic world를 만드는 것 또한 상당한 effort가 될 거다.
 - 본 논문에서 real 이미지로부터 컨텐츠의 구성을 캡쳐해, synthetic scene을 만들어내는 generative model 학습한다. probabilistic 한 scene grammar에 기반하여 게임 그래픽 엔진으로 다양하고 의미있는 virtual environment를 만들어 낼거다.
 - 객체들의 위치, 방향 등의 attribute를 수정함으로써 real data의 distribution과 더 잘 일치하도록 학습한다. 또한 downstream task를 개선하기 위해 시뮬레이터의 parameter들을 조정하는 meta task를 최적화 한다.
-
----
 
 # 2. Related Work
 

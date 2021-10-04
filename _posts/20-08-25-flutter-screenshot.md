@@ -3,9 +3,6 @@ title: "[Flutter] Screenshot"
 tags: flutter
 ---
 
-<!--more-->
-
-
 ```dart
 takeScreenShot() async {
     RenderRepaintBoundary boundary =
@@ -16,3 +13,5 @@ takeScreenShot() async {
     print(pngBytes);
   }
 ```
+
+<!--more-->

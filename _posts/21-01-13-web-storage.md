@@ -1,12 +1,9 @@
 ---
 title: "Web storage"
+subtitle: Cookie vs Local Storage vs Session Storage
 category: WEB
 tags: web frontend
 ---
-
-Cookie vs Local Storage vs Session Storage
-
-<!--more-->
 
 # Cookie
 
@@ -30,3 +27,5 @@ Cookie vs Local Storage vs Session Storage
 
 - 데이터의 지속성, 액세스 범위에 제한이 존재한다
 - 브라우저가 종료되면 삭제된다
+
+<!--more-->

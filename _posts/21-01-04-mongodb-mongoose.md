@@ -4,6 +4,11 @@ category: WEB
 tags: web backend db
 ---
 
+NodeJS에서 사용하는 MongoDB에 접근하기 위해 사용하는 Mongoose 라이브러리
+
+- Schema
+- Populate
+
 <!--more-->
 
 # Schema
