@@ -119,7 +119,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -128,12 +128,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 99700722e08335ee0670
-    clientSecret: be7c3f0588403856ba613090fb0a9b645512cd83
-    repository  : hi-space.github.io
-    owner       : hi-space
+    clientID    : 
+    clientSecret: 
+    repository  : 
+    owner       : 
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      - hi-space
+      # - hi-space
       # - your GitHub Id
 
   ## Valine
