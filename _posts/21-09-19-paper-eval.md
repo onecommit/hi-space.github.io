@@ -346,6 +346,74 @@ python -u ./tools/eval.py \
 ===> mIoU: 45.16
 ```
 
+### aagc_640x360_b2_student_full (TBD) 
+
+- epoch: 40000
+- crop_size: 640x360
+- batch size: 2
+- cyclegta + citys
+- no autoaug
+- restore 하지 않고 처음부터 Pseudo Labeling 된 데이터 섞어서 학습
+- 참고로 15000 epoch이 val loss가 작은데 mIoU는 35.41
+- epoch 15000: 35.41
+- epoch 25000: 43.72
+  
+```sh
+===>road:       90.53
+===>sidewalk:   42.43
+===>building:   83.15
+===>wall:       26.88
+===>fence:      23.44
+===>pole:       37.85
+===>light:      38.19
+===>sign:       41.9
+===>vegetation: 83.78
+===>terrain:    36.41
+===>sky:        78.28
+===>person:     61.78
+===>rider:      30.68
+===>car:        84.63
+===>truck:      31.27
+===>bus:        33.59
+===>train:      1.13
+===>motocycle:  24.9
+===>bicycle:    40.72
+===> mIoU: 46.92
+```
+
+### aagc_640x360_b2_student_full_autoaug (TBD)
+
+- epoch: 40000
+- crop_size: 640x360
+- batch size: 2
+- cyclegta + citys
+- source aug + target aug
+- restore 하지 않고 처음부터 Pseudo Labeling 된 데이터 섞어서 학습
+- epoch 45000: 41.71
+
+```sh
+===>road:       87.46                                                                                                
+===>sidewalk:   44.75                                                                                                
+===>building:   81.59                                                                                                
+===>wall:       18.89                                                                                                
+===>fence:      23.54                                                                                                
+===>pole:       37.5                                                                                                 
+===>light:      33.2                                                                                                 
+===>sign:       30.66                                                                                                
+===>vegetation: 81.87                                                                                                
+===>terrain:    27.34                                                                                                
+===>sky:        78.5                                                                                                 
+===>person:     58.04                                                                                                
+===>rider:      19.09                                                                                                
+===>car:        82.37                                                                                                
+===>truck:      15.82                                                                                                
+===>bus:        30.46                                                                                                
+===>train:      1.11                                                                                                 
+===>motocycle:  21.17                                                                                                
+===>bicycle:    32.73                                                                                                
+===> mIoU: 42.43
+```
+
 # Target 데이터 수를 줄였을 때 DA 성능 테스트
 
 ### gc_640x360_b2_d1000

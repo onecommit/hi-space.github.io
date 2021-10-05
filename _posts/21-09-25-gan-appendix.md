@@ -1,7 +1,7 @@
 ---
 title: GAN appendix
 category: AI
-tags: ai gan
+tags: ai
 article_header:
     type: overlay
     theme: dark
