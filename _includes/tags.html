@@ -72,7 +72,7 @@
       {%- else -%}
         {%- assign _c_index = 7 -%}
       {%- endif -%}
-      <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ tagitems[1] | strip | url_encode }}">
+      <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ tag | strip | url_encode }}">
           <span>{{ tag | strip }}</span><div class="tag-button__count">{{ count }}</div>
         </button>
       </li>
