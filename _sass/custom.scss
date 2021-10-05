@@ -3,41 +3,39 @@
 .copy-code-button {
     position: absolute;
     border: none;
-    right: 0.2rem;
+    right: 0.5rem;
     top: 0.2rem;
     cursor: pointer;
     font-size: 1rem;
     padding: 6px 6px;
     opacity: 0.4;
     &:active,
-    // &:focus,
     &:hover {
       opacity: 1;
     }
 
     &::before {
-        content: "";    // Text
+        content: "";
     }
-
     &::after {
-        content: "📋";
+        content: "";
         display: block;
     }
 
     // Change the state that toggled by JS
     &.copied {
         &::before {
-            content: "";    //Text
+            content: "";
         }
-
         &::after {
-            content: "Copied!";
-            font-size: 0.8rem;
+            content: "Copied🔥";
+            font-size: 0.7rem;
+            margin: 0;
+            opacity: 1;
         }
     }
 
     &:active .copied,
-    // &:focus .copied,
     &:hover .copied {
       opacity: 1;
     }
