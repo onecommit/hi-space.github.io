@@ -5,11 +5,11 @@ tags: ubuntu
 ---
 
 ```sh
-# Local -> Remote
-rsync -vzhu --progress images/* ~/bk/
-	
 # Local -> Local
 rsync -rhvP * ~/bk/
+
+# Local -> Remote
+rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
 ```
 
 <!--more-->
@@ -65,3 +65,8 @@ rsync -vzhu --progress images/* ~/bk/
 rsync -rhvP * ~/bk/
 ```
 
+#### Local -> Remote
+
+```sh
+rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
+```

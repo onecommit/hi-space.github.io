@@ -60,5 +60,6 @@ flip & shift를 사용
 
 # References
 
-- [ref blog 1](https://2-chae.github.io/category/2.papers/29)
-- [ref blog 2](https://ainote.tistory.com/6)
+- [https://2-chae.github.io/category/2.papers/29](https://2-chae.github.io/category/2.papers/29)
+- [https://ainote.tistory.com/6](https://ainote.tistory.com/6)
+- [https://cool24151.tistory.com/81](https://cool24151.tistory.com/81)

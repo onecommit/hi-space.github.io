@@ -221,11 +221,9 @@ Semi-supervised learning 성능을 평가하기 위해, 보통 Labled 데이터�
 
 # Referecne
 
-- [Semi-supervised learning 방법론 소개](https://blog.est.ai/2020/11/ssl/)
-- [Semi-supervised learning 정리](https://jiwunghyun.medium.com/semi-supervised-learning-%EC%A0%95%EB%A6%AC-a7ed58a8f023)
-- [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](https://2-chae.github.io/category/2.papers/29)
-- [FixMatch : Simplifying Semi-Supervised Learning with Consistency and Confidence](https://cool24151.tistory.com/81)
-- [Consistency Regularization](https://seewoo5.tistory.com/8)
-- [semi-supervised learning](https://amitness.com/2020/07/semi-supervised-learning/)
-- [Meta Pseudo Labels](https://medium.com/@nainaakash012/meta-pseudo-labels-6480acb1b68)
-- [[Paper Review] ReMixMatch & FixMatch : Consistency-based Semi-supervised Learning Methods](http://dsba.korea.ac.kr/seminar/?mod=document&uid=248)
+- [[Semi-supervised learning 방법론 소개](https://blog.est.ai/2020/11/ssl/)](https://blog.est.ai/2020/11/ssl/)
+- [https://jiwunghyun.medium.com/semi-supervised-learning-%EC%A0%95%EB%A6%AC-a7ed58a8f023](https://jiwunghyun.medium.com/semi-supervised-learning-%EC%A0%95%EB%A6%AC-a7ed58a8f023)
+- [https://seewoo5.tistory.com/8](https://seewoo5.tistory.com/8)
+- [https://amitness.com/2020/07/semi-supervised-learning/](https://amitness.com/2020/07/semi-supervised-learning/)
+- [https://medium.com/@nainaakash012/meta-pseudo-labels-6480acb1b68](https://medium.com/@nainaakash012/meta-pseudo-labels-6480acb1b68)
+- [http://dsba.korea.ac.kr/seminar/?mod=document&uid=248](http://dsba.korea.ac.kr/seminar/?mod=document&uid=248)

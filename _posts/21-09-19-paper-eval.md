@@ -282,6 +282,7 @@ python -u ./tools/eval.py \
 # Student (Pseudo Labeling한 데이터셋 추가)
 
 - Unlabeled 데이터에 hard labeling 하고 해당 데이터를 포함하여 학습
+  - Cityscapes 만으로 학습된 Deeplab v3+ 모델 사용 (mIoU: 78.271)
 - 좋은 성능을 보였던 `aagc_640x360_b1/GTA5_best.pth`(mIoU: 44.42) 를 restore 해서 추가 학습 진행
 
 ### aagc_640x360_b2_student
@@ -485,7 +486,26 @@ python -u ./tools/eval.py \
 - cityscapes only (1000)
 
 ```sh
-
+===>road:       94.48
+===>sidewalk:   65.91
+===>building:   85.16
+===>wall:       21.36
+===>fence:      27.94
+===>pole:       42.06
+===>light:      43.77
+===>sign:       60.85
+===>vegetation: 86.56
+===>terrain:    44.21
+===>sky:        86.98
+===>person:     65.96
+===>rider:      39.83
+===>car:        88.06
+===>truck:      42.92
+===>bus:        57.84
+===>train:      26.11
+===>motocycle:  37.0
+===>bicycle:    63.69
+===> mIoU: 56.88
 ```
 
 ### cityscapes_seg_d500
