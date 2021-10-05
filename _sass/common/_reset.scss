@@ -172,18 +172,24 @@ input {
   display: none;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 4px;
   height: 4px;
-  background-color: transparent;
-  
+  background-color: transparent; 
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: rgba($main-color-3, .3);
+  // background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
   border-radius: 30px;
   background-color: rgba($main-color-1, .9);
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   border-radius: 30px;
   background-color: rgba($text-color-3, .1);
 }
