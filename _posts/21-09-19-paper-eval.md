@@ -346,7 +346,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 45.16
 ```
 
-### aagc_640x360_b2_student_full (TBD) 
+### aagc_640x360_b2_student_full
 
 - epoch: 40000
 - crop_size: 640x360
@@ -357,6 +357,8 @@ python -u ./tools/eval.py \
 - 참고로 15000 epoch이 val loss가 작은데 mIoU는 35.41
 - epoch 15000: 35.41
 - epoch 25000: 43.72
+- epoch 50000: 43.02
+- epoch 60000: 45.56
   
 ```sh
 ===>road:       90.53
@@ -381,7 +383,7 @@ python -u ./tools/eval.py \
 ===> mIoU: 46.92
 ```
 
-### aagc_640x360_b2_student_full_autoaug (TBD)
+### aagc_640x360_b2_student_full_autoaug
 
 - epoch: 40000
 - crop_size: 640x360
@@ -392,25 +394,25 @@ python -u ./tools/eval.py \
 - epoch 45000: 41.71
 
 ```sh
-===>road:       87.46                                                                                                
-===>sidewalk:   44.75                                                                                                
-===>building:   81.59                                                                                                
-===>wall:       18.89                                                                                                
-===>fence:      23.54                                                                                                
-===>pole:       37.5                                                                                                 
-===>light:      33.2                                                                                                 
-===>sign:       30.66                                                                                                
-===>vegetation: 81.87                                                                                                
-===>terrain:    27.34                                                                                                
-===>sky:        78.5                                                                                                 
-===>person:     58.04                                                                                                
-===>rider:      19.09                                                                                                
-===>car:        82.37                                                                                                
-===>truck:      15.82                                                                                                
-===>bus:        30.46                                                                                                
-===>train:      1.11                                                                                                 
-===>motocycle:  21.17                                                                                                
-===>bicycle:    32.73                                                                                                
+===>road:       87.46         
+===>sidewalk:   44.75         
+===>building:   81.59         
+===>wall:       18.89         
+===>fence:      23.54         
+===>pole:       37.5         
+===>light:      33.2         
+===>sign:       30.66         
+===>vegetation: 81.87         
+===>terrain:    27.34         
+===>sky:        78.5         
+===>person:     58.04         
+===>rider:      19.09         
+===>car:        82.37         
+===>truck:      15.82         
+===>bus:        30.46         
+===>train:      1.11          
+===>motocycle:  21.17         
+===>bicycle:    32.73         
 ===> mIoU: 42.43
 ```
 
@@ -634,4 +636,37 @@ python -u ./tools/eval.py \
 ===>motocycle:  10.89
 ===>bicycle:    59.52
 ===> mIoU: 40.5
+```
+
+# Seg-Uncertanity -> Single Segmentation
+
+- epoch: 45000
+- crop_size: 640x360
+- batch_size: 4
+- cyclegta + cityscapes
+- DeepLabMulti -> 일반적인 DeepLab 형태로 (auxiliary segmentation model 제거)
+- Total loss = segmentation loss + adversarial loss (prediction 결과물에 dicriminator 로 domain confusion)
+- epoch 40000: 41.71
+
+```sh
+===>road:       76.63
+===>sidewalk:   25.13
+===>building:   81.14
+===>wall:       25.93
+===>fence:      19.86
+===>pole:       31.92
+===>light:      34.95
+===>sign:       39.1
+===>vegetation: 79.13
+===>terrain:    29.87
+===>sky:        73.6
+===>person:     56.98
+===>rider:      25.24
+===>car:        81.79
+===>truck:      27.61
+===>bus:        27.72
+===>train:      9.53
+===>motocycle:  26.9
+===>bicycle:    42.08
+===> mIoU: 42.9
 ```
