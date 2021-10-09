@@ -10,15 +10,24 @@
     }
   }
   .tag-button-1 {
-    @include clickable($text-color-1, rgba($main-color-1, .4), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+    @include clickable($text-color-1, rgba($main-color-1, .3), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
   }
   .tag-button-2 {
-    @include clickable($text-color-1, rgba($main-color-1, .55), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+    @include clickable($text-color-1, rgba($main-color-1, .4), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
   }
   .tag-button-3 {
-    @include clickable($text-color-1, rgba($main-color-1, .7), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+    @include clickable($text-color-1, rgba($main-color-1, .5), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
   }
   .tag-button-4 {
+    @include clickable($text-color-1, rgba($main-color-1, .6), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+  }
+  .tag-button-5 {
+    @include clickable($text-color-1, rgba($main-color-1, .7), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+  }
+  .tag-button-6 {
+    @include clickable($text-color-1, rgba($main-color-1, .8), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
+  }
+  .tag-button-7 {
     @include clickable($text-color-1, rgba($main-color-1, .9), default, default, $text-color-2,$main-color-2, $text-color-2,$main-color-2);
   }
 }
