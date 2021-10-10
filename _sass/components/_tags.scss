@@ -7,7 +7,7 @@
       $main-color-3,  // $hover-bg-clr  hover시 bg
       $text-color-2,  // $active-clr    클릭 후 선택 직전까지 text
       $main-color-1,  // $active-bg-clr 클릭 후 선택 직전까지 bg
-      $text-color-1,  // $focus-clr     선택되었을 때 text
+      $text-color-3,  // $focus-clr     선택되었을 때 text
       rgba($main-color-1, 0.1)   // $focus-bg-clr  선택되었을 때 bg
     ) {
       // tag button hover시 효과
