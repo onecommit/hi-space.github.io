@@ -1,4 +1,15 @@
-@mixin clickable($clr, $bg-clr, $hover-clr: default, $hover-bg-clr: default, $active-clr: default, $active-bg-clr: default, $focus-clr: default, $focus-bg-clr: default, $theme: default, $ignore-path: default) {
+@mixin clickable(
+  $clr,
+  $bg-clr,
+  $hover-clr: default,
+  $hover-bg-clr: default,
+  $active-clr: default,
+  $active-bg-clr: default,
+  $focus-clr: default,
+  $focus-bg-clr: default,
+  $theme: default,
+  $ignore-path: default
+) {
 
   @if $theme == default {
     @if $bg-clr == null and $hover-bg-clr == null {
@@ -127,7 +138,7 @@
     color: $focus-clr;
     @if $focus-bg-clr{
       background-color: $focus-bg-clr;
-      box-shadow: 0 0 0 2px rgba($focus-bg-clr, .4);
+      box-shadow: 0 0 0 2px rgba($focus-bg-clr, .8);
     }
     @if $ignore-path == false {
       svg path {
@@ -156,4 +167,5 @@
       }
     }
   }
+  @content
 }

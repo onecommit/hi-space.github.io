@@ -1,7 +1,7 @@
 ---
 title: MarkdownTest
 subtitle: 본문 내용 말고, 서브 타이틀 보이도록 변경
-category: Seonho
+category: AI
 tags: env 🔥
 article_header:
     type: overlay

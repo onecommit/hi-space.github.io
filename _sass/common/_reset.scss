@@ -173,23 +173,23 @@ input {
 }
 
 ::-webkit-scrollbar {
-  width: 4px;
-  height: 4px;
-  background-color: transparent; 
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgba($main-color-1, .2);
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 30px;
-  background-color: rgba($main-color-3, .3);
-  // background-color: transparent;
+  background-color: rgba($main-color-1, .8);
 }
 
 ::-webkit-scrollbar-thumb:hover {
   border-radius: 30px;
-  background-color: rgba($main-color-1, .9);
+  background-color: rgba($main-color-1, 1);
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 30px;
-  background-color: rgba($text-color-3, .1);
+  background-color: rgba($text-color-1, .1);
 }

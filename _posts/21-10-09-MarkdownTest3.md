@@ -1,17 +1,33 @@
 ---
 title: MarkdownTest
 subtitle: 본문 내용 말고, 서브 타이틀 보이도록 변경
-category: Seonho
+category: AI
 tags: env 🔥
+mode: immersive # normal (default), immersive
+pageview: true
+show_date: true # default true
+mathjax: true
+mermaid: true
+chart: true
+cover: https://images.unsplash.com/photo-1633604909485-2f8442bd80ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80
+lightbox: true
 article_header:
-    type: overlay
-    theme: dark
-    background_image: false
+    type: overlay   # overlay, cover
+    align: left # left (default), center
+    theme: dark # light (default), dark
+    background_color: "#000"    # available when type: overlay
+    background_image:
+        # gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+        src: https://images.unsplash.com/photo-1633604909485-2f8442bd80ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80
+    # available when type: overlay
+    image: https://images.unsplash.com/photo-1633604909485-2f8442bd80ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80
 ---
 dddd
 <!--more-->
 
 # Markdown Test
+
+![Image](/ai/2021/10/09/2021-10-09-16-50-11.png)
 
 Clipboard Test
 
