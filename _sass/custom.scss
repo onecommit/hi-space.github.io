@@ -1,5 +1,5 @@
 /* start custom scss snippet */
-// Code to clipboard 
+// Code to clipboard copyCopy.js
 .copy-code-button {
     position: absolute;
     border: none;
@@ -103,6 +103,25 @@ pre.highlight {
 }
 pre.highlight {
     position: relative;
+}
+
+// scroll-to-top.js 
+#scroll-to-top {
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    font-size: 15px;
+    border-radius: 100px;
+    padding: 15px;
+    bottom: 5%;
+    right: 10%;
+    opacity: 0;
+    z-index: 10;
+    // backface-visibility: hidden;
+    background-color: rgba($main-color-3, 0.5);
+
+    transform: translateY(30%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 /* end custom scss snippet */
